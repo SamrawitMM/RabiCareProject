@@ -2,7 +2,7 @@ import { Redirect } from 'expo-router';
 import { Text } from 'react-native';
 
 export default function Page() {
-  return <Redirect href={"/(drawer)/Categorization"} />;
+  return <Redirect href={"/(drawer)/home"} />;
 }
 
 // import React from 'react';

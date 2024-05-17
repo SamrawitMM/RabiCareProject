@@ -126,7 +126,16 @@ export default function DrawerLayout() {
     >
     <Text style={styles.text}>RabiCare</Text>
     </LinearGradient>   */}
+      <Drawer.Screen
+        name="home"
+        options={{
+          // drawerItemStyle: { display: 'none' },
+          drawerLabel: "Home",
+          title: "Home",
 
+        }}
+      />
+      
      <Drawer.Screen
         name="Categorization"
         options={{
@@ -198,15 +207,7 @@ export default function DrawerLayout() {
 
         }}
     />
-      <Drawer.Screen
-        name="home"
-        options={{
-          drawerItemStyle: { display: 'none' },
-          drawerLabel: "Home",
-          title: "Home",
 
-        }}
-      />
       {/* /// new code below /// */}
       <Drawer.Screen
         name="settings"
