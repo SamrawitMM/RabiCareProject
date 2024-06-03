@@ -66,7 +66,15 @@ const en = {
   trans_description5: ' Prompt medical treatment, including Vaccination and post-exposure prophylaxis, is crucial following exposure to rabies to prevent the development of clinical disease. Public health measures aimed at controlling rabies in animal populations, such as vaccination campaigns and population management strategies, are essential for reducing the risk of transmission to humans. ',
  
   incu_title: 'Incubation period',
-  incu_description: ' The incubation period for rabies, the time between exposure to the rabies virus and the onset of clinical symptoms, typically ranges from several days to several years, with an average of one to three months in humans. However, the incubation period can vary depending on factors such as the location and severity of the exposure, the amount of virus inoculated, and the individual\'s immune response. During the incubation  period, infected individuals may not exhibit any symptoms, making early detection and treatment challenging. Once clinical symptoms manifest, the disease progresses rapidly, leading to neurological dysfunction and, ultimately, death in almost all cases if left untreated. Therefore, prompt medical evaluation and post-exposure prophylaxis following potential rabies exposure are essential for preventing the onset of clinical disease. ',
+  incu_description: 'This is the period from the day a person is bitten until the symptoms of the disease begin to appear.',
+  incu_description1: 'What differentiates rabies from other diseases is the lack of a constant incubation period.',
+  incu_description2: 'The length of the virus\'s incubation period is determined by the depth or size of the wound, the amount of virus that entered during the bite, and the individual\'s immune response.',
+  incu_description3: 'If the wound is deep and the amount of virus that enters the body is high, the virus\'s chance of reaching nerve cells increases, shortening the incubation period.',
+  incu_description4: 'The incubation period for the virus is not the same for those bitten on the upper and lower parts of the body, so the disease doesn\'t start at the same time.',
+  incu_description5: 'Before the symptoms of rabies start, there may be itching, tingling, or pain around the bite area, followed by headaches, fever, and fatigue.',
+  incu_description6: 'These symptoms can also occur due to other diseases, so it is essential to consult a doctor.',
+
+  
   anisym_title: 'Common Symptoms of Rabies',
   anisym_description: [
     'Fever',
@@ -283,8 +291,15 @@ const or = {
   trans_description4: ' kan mul\'atuuf raabii dhoorkee osoo irraa kan ka\'e, inni qabu karaa danda\'u isaa bara guddaa irraa argatuun kanuma dura caalaan dhoorkeetti naannoo keessaa bakka fayyadamtuuf naqaa darbuu danda\'u, hujii rooristuwwan jabeeffadhuudhaafna malee raabii fi hojii biraan gahaa jirtuuf naannoleen rabii dha.',
   trans_description5: ' Raabii kan morma isaa addaa yoo jenne rabii osoo dhoorkee ilmoo isaa naannoleefii yoo hundaa\'e addaa hundi rabii dhoorkee bakka bu\'oota isaa waliigaltee danda\'uutu kanuma hundaa\'e, rabii raafama isaa irraa bu\'oota isaa waliigaltee danda\'uutu kanuma hundaa\'e kanuma dura caalaan dhoorkee irraa argatus. Gama kanaaf, gaaffii fayyadamtuu raabii irraa dhoorkee naannoo ke',
   
-  incu_title: 'Gareesa Innoca',
-  incu_description: 'Gareesichiirraa innoca qofaafi akkaataa deebisuu qaba. Namoota addunyaa qofaafi daandii keessa dhihaatti qofa osoo hin taane akka deebifamuu tuffii, hiriiraa keessatti akka dubbifamu gaaffii baraaruuf baheefi qabdu. Jijjiirraa gareesa innoca keessatti innoca bira fageenya isaa cufaa dha.',
+  incu_title: 'Yeroo Dhibee Duraa ',
+  incu_description: 'Yeroo namni tokko yeroo qufame hanga mallattoon dhibee itti mul’atutti jiru.',
+  incu_description1: 'Dhibeen dhukkuba saree kanneen biroo irraa adda isa godhu yeroo itti mul’atu kan hin jirre dha.',
+  incu_description2: 'Yeroo ittit virusichi ittfufu dheerina isaa fi gabaabina isaa kan murteessan bal’inna qusaa, baay’inna virusitti yeroo qufamu keessa seene, fi qaama namichaa ittisuun dhibee sanaa.',
+  incu_description3: 'Qusaan yoo bal’ate fi virusichi baay’ate qaama keessa seene yeroo gabaabdu keessatti qaamota nerve dhaqqabuuf carraa argata.',
+  incu_description4: 'Warra qufaame gubbaa fi jalaa qaama isaanii kan hin walfakkaanne yeroo itti mallattoon dhibee mul’atu.',
+  incu_description5: 'Dhibeen dhukkuba saree mallattoon isaa itti mul’atuun dura qusaa irratti gubuu, hoo’uu, boo’uu, boo’icha, fi dhukkubni qusaa irratti uumamuun dura mataa dhukkubsachuu, hoo’uu, fi dadhabbiin itti fufa.',
+  incu_description6: 'Mallattoon kun kan dhukkuboota biroo irraa uumamu danda’a, kanaaf ogeessa fayyaa waliin mari’achuun barbaachisaadha.',
+  
   anisym_title: 'Gareesa Harka Qulqulluu',
   anisym_description: ['Harka qulqulluu', 'hiriyootaa', 'fagaala qe\'uu', 'daqiiqaa', 'beekumsaa', 'teebita', 'Isa', 'gaaffii fiixaa', 'fagaala dubbii', 'korma.'],
   husym_title: 'Gareesa Harka Qulqulluu Bilisummaa',
