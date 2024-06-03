@@ -1,34 +1,6 @@
 const en = {
-  welcome: "እዩልኝ እዩልኝ እዩልኝ እዩልኝ \n ግን ሰው ሳያይህ እንዴት ያደንቅሃል ሰው ሳያይህ እንዴት ያመልክሃል ያወቅንህ ግን ማቆም አቅቶናል (፪x) \n",
-  signoutBtn: 'Sign out',
-  signOutAlertTitle: 'Cancel',
-  signOutAlertMess: 'Are you sure you want to sign out?',
-  confirm: 'Okay',
-  resetBtn: 'Reset password',
-  clas_title: 'እዩልኝ እዩልኝ እዩልኝ እዩልኝ',
-  dom: 'Domain',
+  cla_title: 'Classfication',
 
-  cla_title: 'Classfication of Rabies',
-  cla_title1: 'Domain',
-  cla_title2: 'Eukaryota',
-
-  cla_title3: 'Kingdom:',
-  cla_title4: 'Animalia',
-
-  cla_title5: 'Class',
-  cla_title6: 'Mammalia',
-
-  cla_title7: 'Order',
-  cla_title8: 'Carnivora',
-
-  cla_title9: 'Family',
-  cla_title10: 'Rhabdoviridae',
-
-  cla_title11: 'Genus',
-  cla_title12: 'Lyssavirus',
-
-  cla_title13: 'Species',
-  cla_title14: 'Rabies lyssavirus',
   cla_description1:
     'Includes organisms with cells that contain a nucleus enclosed within membranes.',
   cla_description2:
@@ -44,10 +16,11 @@ const en = {
   cla_description7:
     'The species responsible for causing rabies in mammals, including humans.'
   ,
-  tax_title: 'Taxonomy for Rabies',
-  tax_description: 'Rabies is a viral disease that affects the central nervous system of mammals, including humans. It is caused by the rabies virus, which belongs to the genus Lyssavirus and the family Rhabdoviridae. The rabies virus is typically transmitted through the saliva of infected animals, usually via a bite. Once the virus enters the body, it travels to the brain, leading to symptoms such as fever, headache, confusion, agitation, hallucinations, paralysis, and ultimately death.  Rabies is preventable through vaccination and post-exposure prophylaxis, but it remains a significant public health concern in many parts of the world.',
   
-  pat_title: 'Pathogenesis for Rabies',
+  // tax_title: 'Taxonomy for Rabies',
+  // tax_description: 'Rabies is a viral disease that affects the central nervous system of mammals, including humans. It is caused by the rabies virus, which belongs to the genus Lyssavirus and the family Rhabdoviridae. The rabies virus is typically transmitted through the saliva of infected animals, usually via a bite. Once the virus enters the body, it travels to the brain, leading to symptoms such as fever, headache, confusion, agitation, hallucinations, paralysis, and ultimately death.  Rabies is preventable through vaccination and post-exposure prophylaxis, but it remains a significant public health concern in many parts of the world.',
+  
+  pat_title: 'Pathogenesis',
   pat_description: ' The pathogenesis of rabies begins with the entry of the virus into the body through the saliva of infected animals, typically transmitted via bites.',
   pat_description1:' The virus then replicates locally at the site of entry before traveling along peripheral nerves towards the central nervous system. ',
   pat_description2:' Upon reaching the brain and spinal cord, the virus infects neurons, leading to the onset of clinical symptoms such as fever, headache, and neurological dysfunction. ',
@@ -61,7 +34,7 @@ const en = {
   host_description1: 'Pre-exposure vaccination is given to professionals who work closely with animals, such as veterinarians, animal handlers, laboratory workers conducting rabies research, wildlife protectors, park workers, healthcare professionals in hospitals, and travelers who might be exposed to the disease.',
   host_description2: 'Post-exposure vaccination is administered after the virus, either through a bite or other means, has entered the human body. This vaccine is intended for individuals who have been bitten by or come into contact with a suspected or confirmed rabid animal. Anyone who is bitten by or exposed to a suspected rabid animal should seek immediate professional advice and services without delay.',
 
-  trans_title: 'Transmission for Rabies',
+  trans_title: 'Transmission',
   trans_description1: ' Rabies is primarily transmitted through the bite or scratch of an infected animal, with dogs being the most common source of transmission to humans worldwide. The rabies virus is present in the saliva of infected animals and can enter the body through broken skin or mucous membranes, such as those in the mouth, eyes, or nose. Once the virus enters the body, it travels along peripheral nerves towards the central nervous system, leading to the onset of clinical symptoms.',
   trans_description2: ' The rabies virus is present in the saliva of infected animals and can enter the body through broken skin or mucous membranes, such as those in the mouth, eyes, or nose.',
   trans_description3: ' Once the virus enters the body, it travels along peripheral nerves towards the central nervous system, leading to the onset of clinical symptoms.',
@@ -78,7 +51,7 @@ const en = {
   incu_description6: 'These symptoms can also occur due to other diseases, so it is essential to consult a doctor.',
 
   
-  anisym_title: 'Common Symptoms of Rabies',
+  anisym_title: 'Common Symptoms',
   anisym_description: [
     'Fever',
     'Headache',
@@ -91,21 +64,21 @@ const en = {
     'Convulsions',
     'Coma'
   ],
-  husym_title: 'Common Symptoms of Rabies in Humans',
-  husym_description: [
-    'Fever',
-    'Headache',
-    'Hydrophobia (Fear of water)',
-    'Aerophobia (Fear of drafts or air)',
-    'Confusion',
-    'Agitation',
-    'Hallucinations',
-    'Paralysis',
-    'Convulsions',
-    'Coma'
-  ],
+  // husym_title: 'Common Symptoms of Rabies in Humans',
+  // husym_description: [
+  //   'Fever',
+  //   'Headache',
+  //   'Hydrophobia (Fear of water)',
+  //   'Aerophobia (Fear of drafts or air)',
+  //   'Confusion',
+  //   'Agitation',
+  //   'Hallucinations',
+  //   'Paralysis',
+  //   'Convulsions',
+  //   'Coma'
+  // ],
 
-  treat_title: 'Treatment for Rabies',
+  treat_title: 'Treatment',
   treat_description: 'a. Wash the affected area thoroughly with water and soap or alcohol/disinfectant. Although this may not completely remove the virus, it can reduce the amount of virus present.',
   treat_description1: 'b. Seek immediate medical attention by going to the nearest health station or clinic for first aid.',
   treat_description2: 'c. If the animal that caused the bite is still alive, it should be observed by a veterinarian for 10 days.',
@@ -120,7 +93,7 @@ const en = {
   sign_description2: ' As the disease progresses, affected individuals may exhibit hypersalivation (foaming at the mouth), hydrophobia (fear of water), aerophobia (fear of drafts or air), and difficulty swallowing. Other signs may include fever, headache, and muscle weakness. In the later stages, patients may lapse into a coma before succumbing to respiratory failure and death. Recognizing these clinical signs is essential for early diagnosis and prompt initiation of post-exposure prophylaxis to prevent the progression of rabies, as the disease is nearly always fatal once symptoms manifest. ',
 
 
-  hosp_treatement: 'Diagnose the disease',
+  hosp_treatement: 'Diagnosis',
   hosp_description: 'In our country, the only laboratory that conducts this examination is the Ethiopian Public Health and Nutrition Research Institute.',
   hosp_description1: 'The primary beneficiaries of this service are the people living in and around Addis Ababa, while those in other parts of the country cannot benefit from it due to the distance.',
   hosp_description2: 'If this service is expanded to regional laboratories, it will not only help to accurately determine the spread of the disease but also ensure timely treatment for those affected.',
@@ -140,18 +113,12 @@ const en = {
   about_quote: '\"Together, we can create a world free from the fear of rabies.\"',
   about_contact: 'For more information, contact us at: info@rabiesawareness.org',
 
-  home_screen: 'Home'
+  home_screen: 'Home',
+  cla_screen: 'Classification'
 
 
 };
 const am = {
-  welcome: 'React Native 中的国际化和本地化',
-  signoutBtn: '登出',
-  signOutAlertTitle: '取消',
-  signOutAlertMess: '您确定要退出吗？',
-  confirm: '好的',
-  resetBtn: '重设密码',
-  clas_title: '重设密码',
 
   cla_title: 'የበሽታው አምጪ ቫይረስ',
 
@@ -163,8 +130,8 @@ const am = {
   cla_description6: ' በንክሻ አማካኝነት ስሜታዊና አንቀሳቃሽ የነርቭ ጫፍ ወይም ጭራ (Sensory and motor nerve endings) ካገኘ በኋላ ወደ ተቀሩት ሌሎች የነርቭ ሕዋሶች እየተሸጋገረ በሕብለሰረሰር (Spinal cord) አድርጎ ወደ አንጎል ይደርሳል፡፡ ',
   cla_description7: 'ይህ በሽታ ነርቮችን፣ አንጎልንና ጡንቻዎችን በማደንዘዝ ህሊናን ሰውሮ በአጭር ጊዜ ውስጥ ሕይወትን ሊያጠፋ የሚችል አደገኛና አሰቃቂ በሽታ ነው፡፡ ',
   
-  tax_title: 'የራብዬስ ለባሪያ',
-  tax_description: ' ራብዬስ እንዴት በማህበረሰብ የተቃጠለው እናት እና ለአንዲት ዓይነት የወለዱ የእንቅስቃሴ ምልክቶች ይመስላል። ይህ እንቅስቃሴ ራብዬስ በርካታ እንዲሆን ከዓይኑ በታች ለሚሆን የውሃው የቅርብ ወረራ እና ብዛት በሚያስፈልግ የእንቅስቃሴ ቫይረስ ሁሉም ነው።',
+  // tax_title: 'የራብዬስ ለባሪያ',
+  // tax_description: ' ራብዬስ እንዴት በማህበረሰብ የተቃጠለው እናት እና ለአንዲት ዓይነት የወለዱ የእንቅስቃሴ ምልክቶች ይመስላል። ይህ እንቅስቃሴ ራብዬስ በርካታ እንዲሆን ከዓይኑ በታች ለሚሆን የውሃው የቅርብ ወረራ እና ብዛት በሚያስፈልግ የእንቅስቃሴ ቫይረስ ሁሉም ነው።',
   
   pat_title: 'የበሽታው ስርጭት',
   pat_description: ' የራብዬስ አስነስተኛ ታሪክ የራብዬስ ቫይረስ ላይ በዓይነት ራብዬስ በሚካተት በዓይንህ ልጆች መንደር እንዲሆን ስራውን እንደሚከተለው እና ከዓይኑ በታች በሚሆን የሰነድ ምልክት ይመስላል።',
@@ -175,20 +142,20 @@ const am = {
   pat_description5: ' ስጋ በል የዱር እንስሳት ከሚባሉት ውስጥ እንደ ቀበሮ፣ ጅብ፣ ተኩላ፣ ፋሮ፣ ሸለመጥማጥ የሚጠቀሱ ሲሆን በተለይ በአገራችን ጅብና ቀበሮ በተደጋጋሚ በበሽታው እንደሚለከፉ መረጃዎች ያሳያሉ፡፡ ',
   pat_description6: ' የሌሊት ወፍ ዝርያዎች ብዙ ሲሆኑ ከነዚህ ውስጥ ውሻን የሚያሳብድ በሽታ ያስተላልፋሉ ተብለው የሚታመኑት ሁለቱ ብቻ ናቸው፡፡ እነዚህም ነፍሳት-በል (Insectivorous) እና ደም መጣጭ ( Vampire ) በመባል ይታወቃሉ፡፡',
 
-  host_title: 'በሽታ መከላከያ ክትባት',
+  host_title: 'መከላከያ ክትባት',
   host_description: ' ውሻን ለሚያሳብደው በሽታ መከላከያ ክትባት ለሰዎች የሚሰጠው በሁለት አይነት ሁኔታዎች ነው፡፡ እነዚህም ቅድመ-ንክሻ እና ድህረ-ንክሻ መከላከያ ክትባት በመባል ይታወቃሉ፡፡',
   host_description1:' ቅድመ-መጋለጥ ክትባት (Pre-exposure) የሚባለው ከእንስሳት ጋር በቅርበት ለሚሰሩ ባለሞያዎች፤ ለእንስሳት ሀኪሞች፤ የበሽታው ምርመራ በሚከናወንበት ላብራቶሪ ውስጥ ለሚሰሩ፤ በዱር እንስሳት ጥበቃና ፓርክ ሰራተኞች፤ በሆስፒታል የጤና ባለሞያዎችና ተጓዦች በተለየ መልኩ ለበሽታው ሊጋለጡ ስለሚችሉ የሚሰጥ የመከላከያ ክትባት አይነት ነው፡፡ ',
   host_description2:' ድህረ-መጋለጥ መከላከያ ክትባት (Post-exposure) የሚባለው ደግሞ በተለይ የበሽታው አምጪ የሆነው ቫይረስ በንክሻም ሆነ በሌሎች አጋጣሚዎች ወደ ሰውነት ከገባ በኋላ የሚሰጥ ክትባት ነው፡፡ ይህም የመከላከያ ክትባት መውሰድ የሚገባቸው በበሽታው ተለክፏል ተብሎ በተጠረጠረ ወይም በተረጋገጠ እብድ እንስሳ የተነከሱ ሰዎች ብቻ ናቸው፡፡ ማንኛውም ሰው በአበደ ወይም አብዷል ተብሎ በተጠረጠረ እንስሳ ቢነከስ ወይም ተናካሹ እንስሳ ለምርመራ ወደ እንሰሳት ሐኪም ዘንድ ሳይቀርብ ሲቀር ወዲያውኑ የባለሙያ ምክርና አገልግሎት ማግኘት አለበት፡፡ ',
 
 
-  trans_title: 'የበሽታው መተላለፊያ መንገዶች',
+  trans_title: 'መተላለፊያ መንገዶች',
   trans_description1: ' ውሻን የሚያሳብድ በሽታ ዋና መተላለፊያ መንገድ ንክሻ ነው ነገር ግን በበሽታው ከተለከፈ እንስሳ ጋር በሚደረግ ጥንቃቄ የጎደለው ንክኪ በተለይ የአበደው እንስሳ ለሀጭ ባልተሸፈነ ቁስል ላይ ሲያርፍ የበሽታው አምጪ ረቂት ወይም ቫይረስ ወደ ጤነኛ ሰውም ሆነ እንስሳ አካል ገብቶ በሽታው ሊተላለፍ ይችላል፡፡ ',
   trans_description2: ' ይህም የሚሆንበት ምክንያት የበሽታው ሕዋስ በነርቭ ህዋሶች አማካኝነት በሕብለሰረሰር (spinal cord) አድርጎ ወደ አንጎል ከገባ በኋላ አንጎል ውሰጥ በሚገኙ የነርቭ ሕዋሶች ጋር ተጣብቆ ካደገ፣ ከተባዛና ከተከማቸ በኋላ ወደ ምራቅ እጢዎች በመጓዝ ከለሀጭ ጋር በአፍ በኩል ወደ ውጭ ስለሚወጣ ነው፡፡',
   trans_description3: ' በበሽታው የተያዘ ውሻ ሌላ እንስሳን በሚነክስበት ጊዜ በለሀጩ ውስጥ የሚገኘው የበሽታው አምጪ ረቂት ወይም ቫይረስ በቀላሉ ወደ ሌላኛው እንስሳ መተላለፍ ስለሚችል ነው፡፡ ',
   trans_description4: ' በአለም እስካሁን ድረስ በምርምር በሽታው ከሰው ወደ ሰው እንደሚተላለፍ የተረጋገጠ መረጃ የለም ሆኖም ግን በሀገራችን አንድ እናት ውሻን በሚያሳብድ በሽታ ተይዘው ለሕክምና ወደ ኢትዮጵያ ጤናና ስነ ምግብ ምርምር ኢንስቲትዩት መጥተው እንዴት እንደያዛቸው ሲጠየቁ በበሽታው ታሞ ከሞተው ልጃቸው በስተቀር ምንም አይነትእንስሳ እንዳልነከሳቸው ወይም ንክኪ እንዳልነበራቸው ተናግረዋል፡፡',
   trans_description5: ' ሌላኛዋ የበሽታው ተጠቂ የሆነች የ 24 ዓመት ሴት ታማ በሞተች በ36ኛው ቀን የ5 ዓመት ልጅዋ ታሞ ሞቷል፤ እሱም በእንስሳ አለመነከሱም ከቤተሰብ የተገኘው መረጃ ይገልጻል፡፡',
   
-  incu_title: 'ቅድመ ሕመም (Incubation Period)',
+  incu_title: 'ቅድመ ሕመም',
   incu_description: ' የምንለው አንድ ሰው ከተነከሰበት ቀን ጀምሮ የሕመም ምልክት እስከሚጀመረበት ያለውን የቫይረሱን የመደራጃ ጊዜ ነው፡፡',
   incu_description1:' ውሻን የሚያሳብድ በሽታ ከሌሎች በሽታዎች የሚለየው ቋሚ (Constant) የሆነ የመደራጃ ጊዜ ስለሌለው ነው፡፡ ',
   incu_description2:' የቫይረሱን የመራቢያ ጊዜ አጭር ወይንም ረጅም መሆኑን የሚወስኑት የቁስሉ ጥልቀት ወይም ስፋት፣ በንክሻው ጊዜ የገባው የቫይረስ መጠን፤የሰውየው በሽታ የመከላከል አቅም ናቸው፡፡',
@@ -199,7 +166,7 @@ const am = {
 
 
   
-  anisym_title: 'የቫይረሱ ምልክቶችም የሚከተሉት ናቸው',
+  anisym_title: 'የቫይረሱ ምልክቶች',
   anisym_description: [
     ' ቁጡ ይሆናል፣ ',
     ' ሲተነፍስ የፉጨት ድምፅ ከወደ ደረቱ አካባቢ ይሰማል፣ ',
@@ -211,19 +178,19 @@ const am = {
   
   ],
 
-  husym_title: 'የራብዬስ አንባቢ ምልክቶች በገንዘብ',
-  husym_description: [
-    'ማህበረሰብ',
-    'አስተካክለት',
-    'የውሃ መንደር ራብዬስ መንደር',
-    'የቅርብ ምንጭ',
-    'ታክስ',
-    'ጠበቃ',
-    'እየሱስ',
-    'እንዲትለም',
-    'የማያሳንፈን ምንጭ',
-    'ቆመ'
-  ],
+  // husym_title: 'የራብዬስ አንባቢ ምልክቶች በገንዘብ',
+  // husym_description: [
+  //   'ማህበረሰብ',
+  //   'አስተካክለት',
+  //   'የውሃ መንደር ራብዬስ መንደር',
+  //   'የቅርብ ምንጭ',
+  //   'ታክስ',
+  //   'ጠበቃ',
+  //   'እየሱስ',
+  //   'እንዲትለም',
+  //   'የማያሳንፈን ምንጭ',
+  //   'ቆመ'
+  // ],
   
   treat_title: 'ለበሽታው የሚደረግ ህክምና',
   treat_description: 'ሀ. የተነከሰው አካል በውሃና በሳሙና ወይም በአልኮል/በአረቄ/ በደንብ ማጠብ፤ ይህም ሙሉ ለሙሉ ባይሆንም በመጠኑ የገባውን ረቂት ወይም ቫይረስ መጠን ይቀንሳል፡፡ ',
@@ -236,7 +203,7 @@ const am = {
   treat_description7: 'ሸ. በበሽታው ተይዞ ሕመሙ የጀመረው ሰው ለሀጭ ማዝረብረብና ለመናከስም ስለሚከጅል በጥንቃቄ ማስታመም አስፈላጊ ነው፡፡ ከለሀጭ ጋር ከሚደረግ ንክኪ ባሻገር በሽተኛው አስታማሚው ፊት ላይ ሊተፋ ስለሚችል በሽተኛውን በጣም ባይቀርቡት ይመረጣል፡፡ በተረፈ ግን የእጅ መሸፈኛ ላስቲክ ወይም ጓንት በማድረግ ማስታመምና የሚፈለገውን እርዳታ ማድረግ ይቻላል፡፡ ለበሽተኛው የሚፈለገው እርዳታ ከተከናወነ በኋላ በደንብ እጅና ፊትን በሳሙና መታጠብ ያስፈልጋል፡፡ ስለዚህ በበሽታው ከተያዘ ሰው ጋር ለሚደረግ ማንኛውም ለበሽታው የሚያጋልጥ ንክኪ ሲኖር ሐኪም ማማከር ያስፈልጋል፡፡',
 
 
-  sign_title: 'የበሽታው መደራጃ ጊዜ እና የህመሙ ምልክቶች',
+  sign_title: 'የህመሙ ምልክቶች',
   sign_description1: 'የመጀመርያው አይነት ተናዳጅ እብደት (Furious Form) በመባል የሚታወቅ ሲሆን ውሻው ሀይለኛና ቁጡ ይሆናል፣ ይቅበዘበዛል፣ ያገኘውን ሰውም ሆነ እንስሳ ወይም ግዑዝ ነገሮችን ይነክሳል፤አፉን ይከፍታል፣ ዝንብን ለመንከስ ሙከራ ያደርጋል፣ ድምፅና ነፋስ አይወድም፣ የሚያሰማው ድምፅ ከድሮው የተለየ ሆኖ በጩኸትና በማላዘን መካከል ያለ ድምፅ ነው ፣ አፉን መክፈትና መዝጋት ስለሚቸገር ለሀጩን ያዝረበርባል፣ ጭራውን ይሸጉባል፣ አይኑ ይደፈርሳል ወይም ይፈጣል፣ ከኃላ እግሩ ይጀምርና ሙሉ አካሉ ይሽመደመዳል በመጨረሻም ይሞታል፡፡ ',
   sign_description2: 'ሁለተኛው አይነት ልዝብ እብደት (Dump Form) የሚባል ሲሆን አንዳንዴ ፈዛዛው በመባል ይታወቃል፡፡ ይህ አይነት ምልክት የሚታይበት ውሻ ዝምተኛ፣ ቀዝቃዛና እንቅልፋም ይሆናል፡፡ በተጨማሪም አንገቱን ያቀረቅራል፣ አይተናኮልም ወይም አይናከስም፤ ከሰዎች የመራቅና የመሸሸግ ጠባይ ያሳያል፡፡ በተለይ የዚህኛውን አይነት የበሽታ ምልክት የሚያሳዩ ውሾች የመንጋጋቸው ጡንቻ ሽባ ስለሚሆንና የታችኛው መንጋጋቸው ስለሚንጠለጠል በአብዛኛው የውሻ ባለቤቶች በውሻው ጉሮሮ ውስጥ አጥንት የተቀረቀረ እየመሰላቸው ያንን ለማውጣትሚያደርጉት ጥረት ለበሽታው ይጋለጣሉ፡፡ ከላይ የተጠቀሱት የባህሪ ለውጦች አንድ ሰው በውሻው ላይ ሲያይ መጠራጠር ያለበት ውሻው ውሻን በሚያሳብድ በሽታ ተለክፎ ሊሆን ስለሚችል ጥንቃቄ ማድረግ እና የእንስሳት ሐኪም ማማከር ይኖርበታል፡፡ ',
 
@@ -265,34 +232,8 @@ const am = {
 
 };
 const or = {
-  welcome: 'Internacionalización y localización en React Native',
-  signoutBtn: 'desconectar',
-  signOutAlertTitle: 'Cancelar',
-  signOutAlertMess: '¿Estás segura de que quieres cerrar sesión?',
-  confirm: 'Okey',
-  resetBtn: 'Restablecer la contraseña',
-  cla_title: 'Raabisee Injifannoo Walii Galuun Itti Dhihaatu',
-
-  // cla_title1: 'Dhaabbii',
-  // cla_title2: 'Eukaryota',
-
-  // cla_title3: 'Lammaffaa:',
-  // cla_title4: 'Animalii',
-
-  // cla_title5: 'Galii',
-  // cla_title6: 'Mammalia',
-
-  // cla_title7: 'Uffataa',
-  // cla_title8: 'Carnivora',
-
-  // cla_title9: 'Oromoo',
-  // cla_title10: 'Rhabdoviridae',
-
-  // cla_title11: 'Ginista',
-  // cla_title12: 'Lyssavirus',
-
-  // cla_title13: 'Waanji',
-  // cla_title14: 'Rabies lyssavirus',
+  
+  cla_title: 'Galuun Itti Dhihaatu',
 
   cla_description1: ' Kn gaaffii siyaasaa waliin taasise, kanaafis duubatti tasgabbii ykn kan abbootii ittiin hafe.',
   cla_description2: ' Jedhuun biyyoolessaa fi daamna jedhamanii dhidheessu, waggoota yeroo irraa dhufeetti hirmaata guddaa qaba.',
@@ -301,8 +242,9 @@ const or = {
   cla_description5: ' Yeroo hundaa waan tarkaanfii, heddummaan, xayyoo fi qaxxaamurraan kaayyoo fi dhaloota ala jiraataa dha.',
   cla_description6: ' Isaan kunoo kan ni gababsiisuu dha.',
   cla_description7: ' Rabies kan dhalataan dura darbanii iddoo qofa qaba.',
-  tax_title: 'Gareesa Aanisii Naannoo',
-  tax_description: 'Gareesa aanisii naannoo gareesichiirraa baraaruufi akkaataa deebisuu qaba. Namoota addunyaa qofaafi daandii keessa dhihaatti qofa osoo hin taane akka deebifamuu tuffii, hiriiraa keessatti akka dubbifamu gaaffii baraaruuf baheefi qabdu. Jijjiirraa gareesa naannoo keessatti naannoo bira fageenya isaa cufaa dha.',
+  
+  // tax_title: 'Gareesa Aanisii Naannoo',
+  // tax_description: 'Gareesa aanisii naannoo gareesichiirraa baraaruufi akkaataa deebisuu qaba. Namoota addunyaa qofaafi daandii keessa dhihaatti qofa osoo hin taane akka deebifamuu tuffii, hiriiraa keessatti akka dubbifamu gaaffii baraaruuf baheefi qabdu. Jijjiirraa gareesa naannoo keessatti naannoo bira fageenya isaa cufaa dha.',
   
   host_title: 'Gareesa Makala',
   host_description: 'Talaalliin ittisaa dhibee sababa saree gara laafessuuf kennamu namootaaf haala lama keessatti kennameera: kan duraa-quunnamtii (pre-exposure) fi kan booda-quunnamtii (post-exposure) jedhamee beekama.',
@@ -327,10 +269,11 @@ const or = {
 
   anisym_title: 'Gareesa Harka Qulqulluu',
   anisym_description: ['Harka qulqulluu', 'hiriyootaa', 'fagaala qe\'uu', 'daqiiqaa', 'beekumsaa', 'teebita', 'Isa', 'gaaffii fiixaa', 'fagaala dubbii', 'korma.'],
-  husym_title: 'Gareesa Harka Qulqulluu Bilisummaa',
-  husym_description: ['Harka qulqulluu' , 'hiriyootaa', 'fagaala qe\'uu', 'daqiiqaa', 'beekumsaa', 'teebita', 'Isa', 'gaaffii fiixaa', 'fagaala dubbii', 'korma.'],
+  // husym_title: 'Gareesa Harka Qulqulluu Bilisummaa',
+  // husym_description: ['Harka qulqulluu' , 'hiriyootaa', 'fagaala qe\'uu', 'daqiiqaa', 'beekumsaa', 'teebita', 'Isa', 'gaaffii fiixaa', 'fagaala dubbii', 'korma.'],
   
-  treat_title: 'Maalimaa Dhibee Fudhatamu',  treat_description: 'Harka walqunnamuu walii gaafatu waliin barbaachisaa jira. Dandeettii qaba osoo hundaa walii gaafatanii mirkaneesse qabuun, deebii fi furmaan baraaruuf qabdu. Baraaruuf keessatti maddi isaa waliif godhanii walii gaafatanii naannoo barbaachisuun dhimma isaanii dubbifameera.',
+  treat_title: 'Maalimaa Dhibee Fudhatamu',  
+  treat_description: 'Harka walqunnamuu walii gaafatu waliin barbaachisaa jira. Dandeettii qaba osoo hundaa walii gaafatanii mirkaneesse qabuun, deebii fi furmaan baraaruuf qabdu. Baraaruuf keessatti maddi isaa waliif godhanii walii gaafatanii naannoo barbaachisuun dhimma isaanii dubbifameera.',
   treat_description: 'a. Naannoo qufame sun bishaan fi saamuu ykn alkoolii/disinfeektiintii waliin qulqulleessi. Kun rakkoo virusaa guutummaan guutuutti hin balleessu ta\'uus, baay\'ina virusii jiru ni hir\'isa.',
   treat_description1: 'b. Gargaarsa fayyaa ariifachiisaa fi duraa argachuuf gara buufata fayyaa yookin kilinikaa fagoo hin jirre deemuu.',
   treat_description2: 'c. Yoo bineensa qufame sun jiraate, ogeessa fayyaa bineensotaatiin guyyoota 10f hordofamu qaba.',

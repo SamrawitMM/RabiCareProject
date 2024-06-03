@@ -22,12 +22,12 @@
 
 import React from "react";
 import { StyleSheet, Image, Text, View } from "react-native";
-import {
-  useFonts,
-  Montserrat_400Regular,
-  Montserrat_600SemiBold,
-  Montserrat_700Bold,
-} from "@expo-google-fonts/montserrat";
+// import {
+//   useFonts,
+//   Montserrat_400Regular,
+//   Montserrat_600SemiBold,
+//   Montserrat_700Bold,
+// } from "@expo-google-fonts/montserrat";
 import { TouchableOpacity } from "react-native-gesture-handler";
 import { useSelector } from 'react-redux';
 import Header from '../common/Header';
