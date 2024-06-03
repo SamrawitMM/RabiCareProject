@@ -1,8 +1,16 @@
 
 import React from 'react';
 import { View, Text, StyleSheet, Image } from 'react-native';
+import { en, am, or } from '../../i18n/supportedLanguage';
+import { useSelector } from 'react-redux';
+
+const translations = { en, am, or };
 
 const AboutUsScreen = () => {
+  const language = useSelector(state => state.language.language);
+  const { about_title, about_desc,
+    about_quote, about_contact } = translations[language];
+
   return (
     <View style={styles.container}>
       <Image
@@ -10,16 +18,15 @@ const AboutUsScreen = () => {
         style={styles.logo}
         resizeMode="contain"
       />
-      <Text style={styles.title}>About Us</Text>
+      <Text style={styles.title}>{about_title}</Text>
       <Text style={styles.description}>
-        Our mission is to raise awareness about rabies and promote preventive
-        measures to protect both humans and animals.
+        {about_desc}
       </Text>
       <Text style={styles.quote}>
-        "Together, we can create a world free from the fear of rabies."
+        {about_quote}
       </Text>
       <Text style={styles.contact}>
-        For more information, contact us at: info@rabiesawareness.org
+        { about_contact }
       </Text>
     </View>
   );
