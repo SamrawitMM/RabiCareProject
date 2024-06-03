@@ -49,7 +49,7 @@ const HomeScreen = () => {
   const navigation = useNavigation();
 
   const language = useSelector(state => state.language.language);
-  const { home_title,  home_desc, home_but } = translations[language];
+  const { home_title,  home_desc, home_but, cla_title } = translations[language];
   // const Home = (props) => {
   //   let [fontsLoaded] = useFonts({
   //     Montserrat_400Regular,
@@ -67,7 +67,7 @@ const HomeScreen = () => {
         <TouchableOpacity
           style={styles.btn}
           // onPress={() => props.navigation.navigate("Detail")}
-          onPress={() =>  navigation.navigate("Categorization")}
+          onPress={() =>  navigation.navigate(cla_title)}
 
         >
           <Text style={styles.text}>{home_but}</Text>
