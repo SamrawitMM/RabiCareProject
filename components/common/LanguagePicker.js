@@ -20,8 +20,8 @@ const LanguagePicker = () => {
         onValueChange={handleLanguageChange}
       >
         <Picker.Item label="English" value="en" />
-        <Picker.Item label="Spanish" value="es" />
-        <Picker.Item label="French" value="fr" />
+        <Picker.Item label="Amharic" value="am" />
+        <Picker.Item label="Afan Oromo" value="or" />
         {/* Add more languages as needed */}
       </Picker>
     </View>

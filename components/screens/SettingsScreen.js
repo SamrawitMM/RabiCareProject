@@ -24,21 +24,26 @@ import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import { useSelector } from 'react-redux';
 import Header from '../common/Header';
+import { en, am, or } from '../../i18n/supportedLanguage';
 
-const translations = {
-  en: { settings: 'Settings Screen' },
-  es: { settings: 'Pantalla de configuración' },
-  fr: { settings: 'Écran des paramètres' },
-};
+// const translations = {
+//   en: { settings: 'Settings Screen' },
+//   es: { settings: 'Pantalla de configuración' },
+//   fr: { settings: 'Écran des paramètres' },
+// };
+
+const translations = { en, am, or};
 
 const SettingsScreen = () => {
   const language = useSelector(state => state.language.language);
-  const { settings } = translations[language];
+  // const { settings } = translations[language];
+  const { welcome } = translations[language];
+
 
   return (
     <View style={styles.container}>
-      <Header title="Settings" />
-      <Text>{settings}</Text>
+      {/* <Header title="Settings" /> */}
+      <Text>{welcome}</Text>
     </View>
   );
 };

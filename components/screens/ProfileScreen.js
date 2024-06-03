@@ -24,12 +24,16 @@ import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import { useSelector } from 'react-redux';
 import Header from '../common/Header';
+import { en, am, or } from '../../i18n/supportedLanguage';
 
-const translations = {
-  en: { welcome: 'Welcome to Home Screen' },
-  es: { welcome: 'Bienvenido a la pantalla de inicio' },
-  fr: { welcome: 'Bienvenue sur l\'écran d\'accueil' },
-};
+// const translations = {
+//   en: { welcome: 'Welcome to Home Screen' },
+//   es: { welcome: 'Bienvenido a la pantalla de inicio' },
+//   fr: { welcome: 'Bienvenue sur l\'écran d\'accueil' },
+// };
+
+const translations = { en, am, or};
+
 
 const HomeScreen = () => {
   const language = useSelector(state => state.language.language);
@@ -37,7 +41,7 @@ const HomeScreen = () => {
 
   return (
     <View style={styles.container}>
-      <Header title="Home" />
+      {/* <Header title="Home" /> */}
       <Text>{welcome}</Text>
     </View>
   );
