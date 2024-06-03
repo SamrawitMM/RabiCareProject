@@ -96,7 +96,11 @@ const en = {
   treat_title: 'Treatment for Rabies',
   treat_description1: '  The treatment for rabies typically involves a combination of wound care, vaccination, and, in some cases, administration of rabies immune globulin (RIG). After potential exposure to the rabies virus through a bite or scratch from a rabid animal, immediate wound cleaning and disinfection are crucial to reduce the risk of virus transmission.' ,
   treat_description2:  ' Post-exposure prophylaxis (PEP) consists of a series of rabies vaccine doses administered over several weeks to stimulate the immune system to produce antibodies against the virus. Additionally, in cases of severe exposure, rabies immune globulin (RIG) may be administered at the wound site to provide immediate passive immunity. Once clinical symptoms of rabies appear, the disease is almost always fatal, with no effective treatment available. Therefore, timely administration of PEP following potential exposure is critical for preventing the development of clinical rabies and saving lives. Public health measures such as vaccination programs for domestic animals and wildlife control are also essential for preventing rabies transmission to humans. ',  sign_title: 'Clinical Sign',
-  sign_description: 'Clinical signs of rabies can vary depending on the stage of the disease, but commonly include neurological symptoms such as behavioral changes, agitation, confusion, hallucinations, and paralysis. As the disease progresses, affected individuals may exhibit hypersalivation (foaming at the mouth), hydrophobia (fear of water), aerophobia (fear of drafts or air), and difficulty swallowing. Other signs may include fever, headache, and muscle weakness. In the later stages, patients may lapse into a coma before succumbing to respiratory failure and death. Recognizing these clinical signs is essential for early diagnosis and prompt initiation of post-exposure prophylaxis to prevent the progression of rabies, as the disease is nearly always fatal once symptoms manifest. ',
+  
+  sign_title: 'Clinical Sign',
+  sign_description1: ' Clinical signs of rabies can vary depending on the stage of the disease, but commonly include neurological symptoms such as behavioral changes, agitation, confusion, hallucinations, and paralysis. ',
+  sign_description2: ' As the disease progresses, affected individuals may exhibit hypersalivation (foaming at the mouth), hydrophobia (fear of water), aerophobia (fear of drafts or air), and difficulty swallowing. Other signs may include fever, headache, and muscle weakness. In the later stages, patients may lapse into a coma before succumbing to respiratory failure and death. Recognizing these clinical signs is essential for early diagnosis and prompt initiation of post-exposure prophylaxis to prevent the progression of rabies, as the disease is nearly always fatal once symptoms manifest. ',
+
   home_title : 'Maxx Scooter',
   home_desc: 'With an updated motor, and integrated anti-theft tech the maxx scooters are custom-tuned for the ultimate riding experience.',
   home_but: 'Next'
@@ -275,9 +279,11 @@ const or = {
   husym_description: ['Harka qulqulluu' , 'hiriyootaa', 'fagaala qe\'uu', 'daqiiqaa', 'beekumsaa', 'teebita', 'Isa', 'gaaffii fiixaa', 'fagaala dubbii', 'korma.'],
   treat_title: 'Gareesa Harka Walqunnamuu',
   treat_description: 'Harka walqunnamuu walii gaafatu waliin barbaachisaa jira. Dandeettii qaba osoo hundaa walii gaafatanii mirkaneesse qabuun, deebii fi furmaan baraaruuf qabdu. Baraaruuf keessatti maddi isaa waliif godhanii walii gaafatanii naannoo barbaachisuun dhimma isaanii dubbifameera.',
-  sign_title: 'Gareesa Carraa Haaraa',
-  sign_description: 'Carraa haaraa dandeettiin keessatti maddi keessan irra deebisuun tuffii barbaachisaa jira. Walii gaafatanii walii abbaa isaanii mirkaneessuun furmaan mirkaneeffamuun namoonni kana akka dandeenyeetti maddi isaa muddama gaafachuun hubatamuun, walii gaafatu waliin barbaachisaa jira. Dandeettii qaba osoo hundaa walii gaafatanii mirkaneesse qabuun, deebii fi furmaan baraaruuf qabdu. Baraaruuf keessatti maddi isaa waliif godhanii walii gaafatanii naannoo barbaachisuun dhimma isaanii dubbifameera.',
   
+  sign_title: 'Gareesa Carraa Haaraa',
+  sign_description1: 'Carraa haaraa dandeettiin keessatti maddi keessan irra deebisuun tuffii barbaachisaa jira. Walii gaafatanii walii abbaa isaanii mirkaneessuun furmaan mirkaneeffamuun namoonni kana akka dandeenyeetti maddi isaa muddama gaafachuun hubatamuun, walii gaafatu waliin barbaachisaa jira. ',
+  sign_description2: 'Dandeettii qaba osoo hundaa walii gaafatanii mirkaneesse qabuun, deebii fi furmaan baraaruuf qabdu. Baraaruuf keessatti maddi isaa waliif godhanii walii gaafatanii naannoo barbaachisuun dhimma isaanii dubbifameera.',
+
   pat_title: 'Tariifi Hundiisaa hojjata',
   pat_description: 'Rabbiin Tariifi Hundiisaa hojjata Rabbiin qabachuun hundiisaa hojjataa gurgurachaa tariifa Rabbiin hundiin qabachuun taanaan kan wal qabachuu hundiisaa ammayyuu walitti ammaa itti fufuun baay\'ee waltuqoofne. ',
   pat_description1: 'Rabbiin Tariifi Hundiisaa hojjata Rabbiin qabachuun hundiisaa hojjataa gurgurachaa tariifa Rabbiin hundiin qabachuun taanaan kan wal qabachuu hundiisaa ammayyuu walitti ammaa itti fufuun baay\'ee waltuqoofne1. ',

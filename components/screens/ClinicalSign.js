@@ -1,6 +1,8 @@
-import { Text, StyleSheet, View, Image, ScrollView} from "react-native";
+import { Text, StyleSheet, View, Image, FlatList} from "react-native";
 import { en, am, or } from '../../i18n/supportedLanguage';
 import { useSelector } from 'react-redux';
+import { ScrollView } from 'react-native-virtualized-view'
+
 
 
 const translations = { en, am, or};
@@ -8,7 +10,7 @@ const translations = { en, am, or};
 
 export default function ClinicalSign() {
     const language = useSelector(state => state.language.language);
-  const { sign_title, sign_description } = translations[language];
+  const { sign_title, sign_description1, sign_description2 } = translations[language];
 
   return (
     
@@ -19,28 +21,21 @@ export default function ClinicalSign() {
     <View style={{backgroundColor:"#ffffff",  width:"100%", height: "60%", borderTopLeftRadius:50, borderTopRightRadius:50}}>
     <Text style={styles.title}>{sign_title}</Text>
     <ScrollView>
-     <Text style={styles.description}>  
-        {sign_description}
-    
-     </Text>
+
+
+     <FlatList style={styles.description}
+        data={[
+          { key: sign_description1 },
+          { key: sign_description2 },
+
+
+        ]}
+        renderItem={({ item }) => <Text style={styles.item}>{`\u2023 ${item.key}\n`}</Text>}
+      />
      </ScrollView>
     </View>
   </View>
-    // <View style={styles.container}>
-    //   <Text style={styles.title}>Clinical Sign</Text>
-    //   <Text>  
-    //   Clinical signs of rabies can vary depending on the stage of the disease, 
-    //   but commonly include neurological symptoms such as behavioral changes, 
-    //   agitation, confusion, hallucinations, and paralysis. As the disease progresses,
-    //    affected individuals may exhibit hypersalivation (foaming at the mouth), 
-    //    hydrophobia (fear of water), aerophobia (fear of drafts or air), and difficulty 
-    //    swallowing. Other signs may include fever, headache, and muscle weakness.
-    //     In the later stages, patients may lapse into a coma before succumbing to 
-    //     respiratory failure and death. Recognizing these clinical signs is essential 
-    //     for early diagnosis and prompt initiation of post-exposure prophylaxis to prevent
-    //      the progression of rabies, as the disease is nearly always fatal once symptoms manifest.    
-    //   </Text>
-    // </View>
+
   );
 }
 
@@ -70,5 +65,8 @@ const styles = StyleSheet.create({
       marginLeft:12,
       marginBottom: 40
 
+    },
+    item: {
+      fontSize: 20
     }
 });
