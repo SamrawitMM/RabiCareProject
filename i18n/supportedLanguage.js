@@ -101,6 +101,18 @@ const en = {
   sign_description1: ' Clinical signs of rabies can vary depending on the stage of the disease, but commonly include neurological symptoms such as behavioral changes, agitation, confusion, hallucinations, and paralysis. ',
   sign_description2: ' As the disease progresses, affected individuals may exhibit hypersalivation (foaming at the mouth), hydrophobia (fear of water), aerophobia (fear of drafts or air), and difficulty swallowing. Other signs may include fever, headache, and muscle weakness. In the later stages, patients may lapse into a coma before succumbing to respiratory failure and death. Recognizing these clinical signs is essential for early diagnosis and prompt initiation of post-exposure prophylaxis to prevent the progression of rabies, as the disease is nearly always fatal once symptoms manifest. ',
 
+
+  hosp_treatement: 'Diagnose the disease',
+  hosp_description: 'In our country, the only laboratory that conducts this examination is the Ethiopian Public Health and Nutrition Research Institute.',
+  hosp_description1: 'The primary beneficiaries of this service are the people living in and around Addis Ababa, while those in other parts of the country cannot benefit from it due to the distance.',
+  hosp_description2: 'If this service is expanded to regional laboratories, it will not only help to accurately determine the spread of the disease but also ensure timely treatment for those affected.',
+  hosp_description3: 'When an animal suspected of being infected is quarantined for 10 days, physical examination is conducted to monitor whether it shows signs of the disease during this period.',
+  hosp_description4: 'If it is not possible to bring a bitten animal or dog to the institute, it can be observed at its location for 10 days. If the animal dies within this period, it is highly likely that the person bitten is infected, and they should notify a health professional.',
+  hosp_description5: 'If the animal shows no physical or behavioral changes during these 10 days and remains alive and well, it confirms that the person bitten is not infected with the disease.',
+  hosp_description6: 'If the animal dies, its head should be sent to the Ethiopian Public Health and Nutrition Research Institute for examination.',
+  hosp_description7: 'There is no preliminary test to confirm whether the disease can be transmitted to humans or animals. Without medical treatment, the survival chances for those infected are very low.',
+  hosp_description8: 'Therefore, anyone exposed to a potential rabid bite or scratch from an animal should immediately consult a doctor without delay.',
+
   home_title : 'Maxx Scooter',
   home_desc: 'With an updated motor, and integrated anti-theft tech the maxx scooters are custom-tuned for the ultimate riding experience.',
   home_but: 'Next'
@@ -293,6 +305,17 @@ const or = {
   pat_description5: 'Rabbiin Tariifi Hundiisaa hojjata Rabbiin qabachuun hundiisaa hojjataa gurgurachaa tariifa Rabbiin hundiin qabachuun taanaan kan wal qabachuu hundiisaa ammayyuu walitti ammaa itti fufuun baay\'ee waltuqoofne5. ',
   pat_description6: 'Rabbiin Tariifi Hundiisaa hojjata Rabbiin qabachuun hundiisaa hojjataa gurgurachaa tariifa Rabbiin hundiin qabachuun taanaan kan wal qabachuu hundiisaa ammayyuu walitti ammaa itti fufuun baay\'ee waltuqoofne6. ',
   
+  hosp_treatement: 'Yeroo dhibee sana adda baafnu',
+  hosp_description: 'Biyya keenya keessatti laaboraatorii dhimma kana qoratu kan qofa Inistitiyuutii Qorannoo Fayyaa fi Nyaataa Itoophiyaa qofa.',
+  hosp_description1: 'Tajaajila kana irraa fayyadamtoonni duraa kanneen Finfinnee fi naannoo isheetti argaman, garuu qaamoleen biroo fageenya irraa kan fayyadamuu hin dandeenye.',
+  hosp_description2: 'Tajaajilli qorannoo kun gara laaboraatoriwwan naannootti yoo bal’ate, balaa dhibee sana sirnaan adda baasuu qofa utuu hin taane, warra dhibee sanaan miidhaman yeroo sirrii irratti wal’ansa argachuuf ni gargaara.',
+  hosp_description3: 'Beelaadha jechuun shakkiin qabame yeroo guyyaa 10f qabamee eeggamu, qorannoon qaamaa raawwatamee mallattoon dhibee sanaa yommuu beelaadha irratti mul’atu ilaaluuf.',
+  hosp_description4: 'Beelaan nama xuqee yoo gara inistitiyuutitti fiduu hin dandeenye, iddoo jiru irraa yeroo guyyaa 10f eeggachuu ni danda’ama. Beelaan yeroo sana keessa yoo du’e, nama xuqee dhibee sanaan qabamuu danda’a jechuudha, akkasumas namni miidhamne fayyaa ofii ogeessa fayyaa beeksisuu qaba.',
+  hosp_description5: 'Beelaan yeroo guyyaa 10f osoo hin jijjiiramin miidhaginaan jiraatee yoo ta’e, namni miidhame dhibee sanaan hin qabamne jechuun mirkaneessa.',
+  hosp_description6: 'Beelaan yoo du’e, mataa isaa kutamee gara Inistitiyuutii Qorannoo Fayyaa fi Nyaataa Itoophiyaa erguu barbaachisa.',
+  hosp_description7: 'Dhibee sana namarraa ykn beelaarraa akka qabamuu danda’u mirkaneessuuf qorannoo duraa hin jiru. Fayyina fayyaa malee, carraan lubbuu nama qabamne hedduu xiqqaadha.',
+  hosp_description8: 'Kanaaf, namni kamuu qajeelfama yeroo dheeraaf irraa hafe ykn beela irraa miidhame, ogeessa fayyaa dafee wal’aanamuu qaba.',
+
   home_title: 'Maxx Scooter',
   home_desc: 'Gurraacha Maxx Scooter kan bilbilaa dhoofamuuti jira irratti akka hubachiisuu dandaʼu.',
   home_but: 'Kutaa'

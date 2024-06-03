@@ -54,6 +54,7 @@ import { setLanguage } from '../redux';
 import { Picker } from '@react-native-picker/picker';
 import Human from '../components/screens/HumanScreen';
 import AboutUsScreen from '../components/screens/Aboutus';
+import HospitalTreatment from '../components/screens/HospitalTreatement';
 
 const Drawer = createDrawerNavigator();
 
@@ -116,6 +117,8 @@ const DrawerNavigator = () => {
       <Drawer.Screen name="Human" component={Human}/>
       <Drawer.Screen name="Transmission" component={Transmission}/>
       <Drawer.Screen name="Treatment" component={Treatment}/>
+      <Drawer.Screen name="Hospital Treatment" component={HospitalTreatment}/>
+
 
       <Drawer.Screen name="About Us" component={AboutUsScreen}/>
 
