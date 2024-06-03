@@ -1,6 +1,7 @@
-import { Text, StyleSheet, View , Image} from "react-native";
+import { Text, StyleSheet, View , Image, FlatList} from "react-native";
 import { en, am, or } from '../../i18n/supportedLanguage';
 import { useSelector } from 'react-redux';
+import { ScrollView } from 'react-native-virtualized-view'
 
 
 const translations = { en, am, or};
@@ -9,20 +10,32 @@ const translations = { en, am, or};
 
 export default function Host() {
     const language = useSelector(state => state.language.language);
-    const { host_title, host_description } = translations[language];
+    const { host_title, host_description, host_description1, host_description2 } = translations[language];
   
   return (
     <View style={{backgroundColor:"#000000"}}>
     <View style={{backgroundColor:"#000000", width:"100%", height: "40%", alignItems:"center", alignContent:"center", justifyContent:"center"}}>
       <Image source={require('../../assets/adoctor_image.png')} style={{width:250, height: 250, borderRadius:50, alignItems:"center", alignContent:"center", justifyContent:"center"}} />
     </View>
-    <View style={{backgroundColor:"#ffffff",  width:"100%", height: "60%", borderTopLeftRadius:10, borderTopRightRadius:10}}>
-      <Text style={styles.title}>{host_title}</Text>
-      <Text style={styles.description}>  
-        {host_description}    
-      </Text>
-      </View>
+    <View style={{backgroundColor:"#ffffff",  width:"100%", height: "60%", borderTopLeftRadius:50, borderTopRightRadius:50}}>
+    <Text style={styles.title}>{host_title}</Text>
+    <ScrollView>
+
+
+     <FlatList style={styles.description}
+        data={[
+          { key: host_description },
+          { key: host_description1 },
+          { key: host_description2 },
+      
+
+
+        ]}
+        renderItem={({ item }) => <Text style={styles.item}>{`\u2023 ${item.key}\n`}</Text>}
+      />
+     </ScrollView>
     </View>
+  </View>
   );
 }
 
@@ -46,4 +59,8 @@ const styles = StyleSheet.create({
       color: '#555', // Updated text color
       padding: 20
     },
+
+  item: {
+    fontSize: 20
+  }
 });

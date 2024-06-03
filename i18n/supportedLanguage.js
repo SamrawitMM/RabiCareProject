@@ -57,7 +57,10 @@ const en = {
   pat_description6:' Despite the immune response, which is often ineffective in clearing the virus from the central nervous system, vaccination and post-exposure prophylaxis remain crucial for preventing clinical rabies2.',
 
   host_title: 'Host Susceptibility',
-  host_description: ' Host susceptibility to rabies varies depending on the species. While all mammals are susceptible to rabies, some species are more commonly affected than others. Domestic animals such as dogs, cats, and livestock can contract rabies through exposure to infected wildlife or other infected animals. Additionally, wild animals such as raccoons, bats, skunks, and foxes are known reservoirs for the rabies virus and play a significant role in its transmission. Humans are also susceptible to rabies, typically through bites or scratches from rabid animals. Vaccination programs for domestic animals and public health measures aimed at preventing human exposure, such as post-exposure prophylaxis, are essential for controlling rabies transmission and reducing the risk of human infection.   ',
+  host_description: 'The rabies preventive vaccine for humans is administered in two situations: pre-exposure and post-exposure vaccinations.',
+  host_description1: 'Pre-exposure vaccination is given to professionals who work closely with animals, such as veterinarians, animal handlers, laboratory workers conducting rabies research, wildlife protectors, park workers, healthcare professionals in hospitals, and travelers who might be exposed to the disease.',
+  host_description2: 'Post-exposure vaccination is administered after the virus, either through a bite or other means, has entered the human body. This vaccine is intended for individuals who have been bitten by or come into contact with a suspected or confirmed rabid animal. Anyone who is bitten by or exposed to a suspected rabid animal should seek immediate professional advice and services without delay.',
+
   trans_title: 'Transmission for Rabies',
   trans_description1: ' Rabies is primarily transmitted through the bite or scratch of an infected animal, with dogs being the most common source of transmission to humans worldwide. The rabies virus is present in the saliva of infected animals and can enter the body through broken skin or mucous membranes, such as those in the mouth, eyes, or nose. Once the virus enters the body, it travels along peripheral nerves towards the central nervous system, leading to the onset of clinical symptoms.',
   trans_description2: ' The rabies virus is present in the saliva of infected animals and can enter the body through broken skin or mucous membranes, such as those in the mouth, eyes, or nose.',
@@ -288,9 +291,12 @@ const or = {
   cla_description7: ' Rabies kan dhalataan dura darbanii iddoo qofa qaba.',
   tax_title: 'Gareesa Aanisii Naannoo',
   tax_description: 'Gareesa aanisii naannoo gareesichiirraa baraaruufi akkaataa deebisuu qaba. Namoota addunyaa qofaafi daandii keessa dhihaatti qofa osoo hin taane akka deebifamuu tuffii, hiriiraa keessatti akka dubbifamu gaaffii baraaruuf baheefi qabdu. Jijjiirraa gareesa naannoo keessatti naannoo bira fageenya isaa cufaa dha.',
-  host_title: 'Gareesa Makala',
-  host_description: 'Gareesa makala qofaa fi yoo irraa deebisaa keessatti naannoolee gareesichiirraa bahuu akka dandeenyeetti namoota qabeenya isaa isaa mirkaneesse keessatti akka dubbifamu. ',
   
+  host_title: 'Gareesa Makala',
+  host_description: 'Talaalliin ittisaa dhibee sababa saree gara laafessuuf kennamu namootaaf haala lama keessatti kennameera: kan duraa-quunnamtii (pre-exposure) fi kan booda-quunnamtii (post-exposure) jedhamee beekama.',
+  host_description1: 'Talaalliin duraa-quunnamtii (pre-exposure) jedhamu kan kennamu ogeeyyii hojjatoota bineensota waliin siqaniifi, akka ogeeyyii bineensota, ogeeyyii qorannoo dhibee, hojjatoota bakka qorannoo keessa hojjatan, ogeeyyii kunuunsa bineensota bosonaa, hojjatoota paarkii, ogeeyyii fayyaa mana yaalaafi imaltoota dhibee kanaan walqunnamtii qabaachuu danda\'an waliin ta\'uudha.',
+  host_description2: 'Talaalliin booda-quunnamtii (post-exposure) jedhamu immoo yeroo vaayirasii tokko qaama namaatti seenee booda, yeroo kanatti kenname. Talaalliin ittisaa kun namoota dhukkuba kana qabachuu danda\'u jedhamanii yaadaman yookin ragaan mirkanaa\'eef kanneen bineensa dhukkubsataa\'n qufaman qofaaf kennama. Namni kam iyyuu dhukkubsataa jedhamuun yaadame bineensa qufame yookiin tuqame sirriitti haala ogummaa qabuun qorannaa dhukkubsataa fi gargaarsa yeroo ariifachiisaa argachuu qaba.',
+ 
   trans_title: 'Gareesa Afaanii',
   trans_description1: ' Rabies kan osoo hin taane yoo dhibbaa ykn dhoorkee ilmaan karaa addaa gadii bittaa isaa miidhamaniiru. ',
   trans_description2: ' Virusii rabies bara kanaatti osoo dhibbaa addaa dubbisuu danda\'uu danda\'uu dubbisaa dhoorkeetti osoo qabu dha. ',
@@ -321,7 +327,7 @@ const or = {
   treat_description5: 'f. Yoo qorannaan bineensichi dhukkuba qabachuu mirkaneesse, namni qufame sun ariifachuun talaallii ittisaa fudhachuu qaba.',
   treat_description6: 'g. Yoo qufa jabaataa ta’e, addatti yoo kan mataa yookin morma qufame ta’e, yookin yoo qusaan gubbaa bal\'aa ta\'e, namni qufame sun ariifachuun talaallii ittisaa jalqabuu qaba, akkasumas Raabisii Immuunooloogluubulinii (Rabies Immunoglobulin) qufa naannoo qufa sanatti akka hin facaane ittisuuf fudhatamuu qaba.',
   treat_description7: 'h. Namni dhukkuba qabatee mallattoon dhukkubaa yoo mul’ate, eegumsaa fi of eeggannoo godhuun dirqama. Namni kun keessumaa seelii dhukkuba kanatti fayyadamuun akka hin saaxilamne eeguu barbaachisaadha. Qoricha ittisaa fi gargaarsa barbaachisu fudhachuuf fayyaalessa waliin mari\'achuun barbaachisaadha. Kana booda harka fi fuula isaa waliin saamuun dhaquu barbaachisaadha.',
-  
+
   sign_title: 'Gareesa Carraa Haaraa',
   sign_description1: 'Carraa haaraa dandeettiin keessatti maddi keessan irra deebisuun tuffii barbaachisaa jira. Walii gaafatanii walii abbaa isaanii mirkaneessuun furmaan mirkaneeffamuun namoonni kana akka dandeenyeetti maddi isaa muddama gaafachuun hubatamuun, walii gaafatu waliin barbaachisaa jira. ',
   sign_description2: 'Dandeettii qaba osoo hundaa walii gaafatanii mirkaneesse qabuun, deebii fi furmaan baraaruuf qabdu. Baraaruuf keessatti maddi isaa waliif godhanii walii gaafatanii naannoo barbaachisuun dhimma isaanii dubbifameera.',
