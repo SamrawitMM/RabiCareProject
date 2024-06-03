@@ -55,8 +55,13 @@ import { Picker } from '@react-native-picker/picker';
 import Human from '../components/screens/HumanScreen';
 import AboutUsScreen from '../components/screens/Aboutus';
 import HospitalTreatment from '../components/screens/HospitalTreatement';
+import { en, am, or } from '../i18n/supportedLanguage';
+import Classification from '../components/screens/ClassificationScreen';
+import Animal from '../components/screens/AnimalScreen';
 
 const Drawer = createDrawerNavigator();
+const translations = { en, am, or };
+
 
 const DrawerNavigator = () => {
   const [locale, setLocale] = useState('en');
@@ -75,6 +80,13 @@ const DrawerNavigator = () => {
         return 'en';
     }
   };
+
+
+  const language = useSelector(state => state.language.language);
+  const { home_screen, cla_title , pat_title, about_title,
+    trans_title, sign_title, hosp_treatement,
+    anisym_title, incu_title, treat_title, host_title } = translations[language];
+
 
   return (
     <Drawer.Navigator
@@ -105,22 +117,24 @@ const DrawerNavigator = () => {
         ),
       }}
     >
-      <Drawer.Screen name="Home" component={HomeScreen} />
+      <Drawer.Screen name={home_screen} component={HomeScreen} />
       {/* <Drawer.Screen name="Profile" component={ProfileScreen} />
       <Drawer.Screen name="Settings" component={SettingsScreen} /> */}
-      <Drawer.Screen name="Categorization" component={TabNavigator} />
-      <Drawer.Screen name="Clinical Sign" component={ClinicalSign} />
-      <Drawer.Screen name="Host" component={Host} />
-      <Drawer.Screen name="Incubation" component={Incubation}/>
-      <Drawer.Screen name="Pathogenesis" component={Pathogenesis}/>
-      <Drawer.Screen name="Symptoms" component={SymptomTabNavigator}/>
-      <Drawer.Screen name="Human" component={Human}/>
-      <Drawer.Screen name="Transmission" component={Transmission}/>
-      <Drawer.Screen name="Treatment" component={Treatment}/>
-      <Drawer.Screen name="Hospital Treatment" component={HospitalTreatment}/>
+      {/* <Drawer.Screen name="Categorization" component={TabNavigator} /> */}
+      <Drawer.Screen name={cla_title} component={Classification} />
+      <Drawer.Screen name={sign_title} component={ClinicalSign} />
+      <Drawer.Screen name={host_title} component={Host} />
+      <Drawer.Screen name={incu_title} component={Incubation}/>
+      <Drawer.Screen name={pat_title} component={Pathogenesis}/>
+      {/* <Drawer.Screen name="Symptoms" component={SymptomTabNavigator}/> */}
+      <Drawer.Screen name={anisym_title} component={Animal}/>
+      {/* <Drawer.Screen name="Human" component={Human}/> */}
+      <Drawer.Screen name={trans_title} component={Transmission}/>
+      <Drawer.Screen name={treat_title} component={Treatment}/>
+      <Drawer.Screen name={hosp_treatement} component={HospitalTreatment}/>
 
 
-      <Drawer.Screen name="About Us" component={AboutUsScreen}/>
+      <Drawer.Screen name={about_title} component={AboutUsScreen}/>
 
 
     </Drawer.Navigator>

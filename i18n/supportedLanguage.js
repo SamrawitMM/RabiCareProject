@@ -138,7 +138,9 @@ const en = {
   about_title: 'About Us',
   about_desc: 'Our mission is to raise awareness about rabies and promote preventive measures to protect both humans and animals.',
   about_quote: '\"Together, we can create a world free from the fear of rabies.\"',
-  about_contact: 'For more information, contact us at: info@rabiesawareness.org'
+  about_contact: 'For more information, contact us at: info@rabiesawareness.org',
+
+  home_screen: 'Home'
 
 
 };
@@ -256,7 +258,9 @@ const am = {
   about_title: 'ስለ እኛ',
   about_desc: 'እኛን እየሰራን እና ወደ ሙሉ የሕመም መከላከያ እንዲሁም የሚኖር ክትባት መተንተን እንዲሆን ነው፡፡',
   about_quote: 'በአንድነት የራብእንዴት የነፃነት ዝርዝር እንዲሆን እኛ መንከላከል እንደአንዱ ነን፡፡',
-  about_contact: 'በተጨማሪም መረጃ ለመረጃ ከታች ያነጋገረን: info@rabiesawareness.org'    
+  about_contact: 'በተጨማሪም መረጃ ለመረጃ ከታች ያነጋገረን: info@rabiesawareness.org',
+  home_screen: 'መነሻ' 
+
 
 
 };
@@ -367,7 +371,8 @@ const or = {
   about_title: 'Bara kana Keenya',
   about_desc: 'Kanaafuu, seena ummataa fi miidhaa keenya waggoota ullaan kennamaa turteefi taasisuudhaan walitti qaban kennamaa turan waggoota biyyattii bilisummaa keessa jirtan.',
   about_quote: 'Fuula dhiiraa itti fayyadamaa baraa keessatti, isa ni argatu.',
-  about_contact: 'Maal gochaa fi malaa fayya baayyina guutuuf: info@rabiesawareness.org'      
+  about_contact: 'Maal gochaa fi malaa fayya baayyina guutuuf: info@rabiesawareness.org',
+  home_screen: 'Dhageeffadha'      
 
 };
 export { am, en, or };
