@@ -60,10 +60,9 @@ const HomeScreen = () => {
     return (
       <View style={styles.container}>
         <Image source={require("../../assets/doctor_image.jpg")} style={styles.img} />
-        <Text style={styles.title}>Maxx Scooter</Text>
+        <Text style={styles.title}>{home_title}</Text>
         <Text style={styles.detail}>
-          With an updated motor, and integrated anti-theft tech the maxx scooters
-          are custom-tuned for the ultimate riding experience.
+          {home_desc}
         </Text>
         <TouchableOpacity
           style={styles.btn}
@@ -71,7 +70,7 @@ const HomeScreen = () => {
           onPress={() =>  navigation.navigate("Categorization")}
 
         >
-          <Text style={styles.text}>Next</Text>
+          <Text style={styles.text}>{home_but}</Text>
         </TouchableOpacity>
       </View>
     );
