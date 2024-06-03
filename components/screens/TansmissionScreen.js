@@ -1,7 +1,9 @@
-import { Text, StyleSheet, View, Image } from "react-native";
-import { ScrollView, TextInput } from 'react-native-gesture-handler';
+import { Text, StyleSheet, View, Image, FlatList } from "react-native";
+import {  TextInput } from 'react-native-gesture-handler';
 import { en, am, or } from '../../i18n/supportedLanguage';
 import { useSelector } from 'react-redux';
+import { ScrollView } from 'react-native-virtualized-view'
+
 
 
 const translations = { en, am, or};
@@ -9,91 +11,31 @@ const translations = { en, am, or};
 
 export default function Transmission() {
     const language = useSelector(state => state.language.language);
-    const { trans_title, trans_description1, trans_description2 } = translations[language];
+    const { trans_title, trans_description1, trans_description2, trans_description3, trans_description4, trans_description5 } = translations[language];
   
   return (
-    <ScrollView
-    showsVerticalScrollIndicator={false}
-    style={{
-      height: "300%",
-      backgroundColor: "#044244",
-    }}
-  >
-    <View
-      style={{
-        height: 260,
-        width: "100%",
-        paddingHorizontal: 25,
-        backgroundColor: "#042a44",
+    <ScrollView  style={styles.container}>
 
-      }}
-    >
-          <Image source={require('../../assets/adoctor_image.png')} style={styles.img} />
-
-      <View style={{
-        flexDirection: "row",
-        width: "100%",
-        paddingTop: 40,
-        alignItems: "center",
-        // backgroundColor: "#04ff44",
-
-      }}>
-        
-        <View style={{
-          width: "50%",
-          backgroundColor: "#045544",
-
-        }}>
-        </View>
-
-<View style={{
-                  flexDirection:"row",
-                  borderColor:"#9ca1a2",
-                  borderRadius:20,
-                  borderWidth:0.2,
-                  paddingVertical:5,
-                  alignItems:"center"
-              }}>
-
-
-        </View>
-
-
-
-      </View>
-      
+    <View style={{backgroundColor:"#000000"}}>
+      <View style={{backgroundColor:"#000000", alignItems:"center", alignContent:"center", justifyContent:"center"}}>
+      <Image source={require('../../assets/adoctor_image.png')} style={{width:250, height: 250, borderRadius:50, alignItems:"center", alignContent:"center", justifyContent:"center", marginTop: 20}} />
     </View>
-    
 
+       <FlatList style={styles.description}
+        data={[
+          { key: trans_description1 },
+          { key: trans_description2 },
+          { key: trans_description3 },
+          { key: trans_description4 },
+          { key: trans_description5 },
+     
 
-     <View style={styles.container}>
-      <Text style={styles.title}>{trans_title}</Text>
-      <Text style={styles.paragraph}>
-      {trans_description1}  </Text>
-             
-        <Text style={styles.paragraph}>
-        {trans_description2}
-      </Text>
-    </View> 
-
-  </ScrollView>
-    // <View style={styles.container}>
-    //   <Text style={styles.title}>Transmission for Rabies</Text>
-    //   <Text>  
-    //   Rabies is primarily transmitted through the bite or scratch of an infected animal, 
-    //   with dogs being the most common source of transmission to humans worldwide. The rabies 
-    //   virus is present in the saliva of infected animals and can enter the body through broken
-    //    skin or mucous membranes, such as those in the mouth, eyes, or nose. Once the virus enters
-    //     the body, it travels along peripheral nerves towards the central nervous system, leading 
-    //     to the onset of clinical symptoms. Additionally, rabies can also be transmitted through 
-    //     exposure to infected saliva, such as through mucous membranes or open wounds, although 
-    //     this mode of transmission is less common. Prompt medical treatment, including Vaccination
-    //      and post-exposure prophylaxis, is crucial following exposure to rabies to prevent the 
-    //      development of clinical disease. Public health measures aimed at controlling rabies in 
-    //      animal populations, such as vaccination campaigns and population management strategies,
-    //       are essential for reducing the risk of transmission to humans.      
-    //     </Text>
-    // </View>
+        ]}
+        renderItem={({ item }) => <Text style={styles.item}>{`\u2023 ${item.key}\n`}</Text>}
+      />
+    </View>
+    </ScrollView>
+ 
   );
 }
 
@@ -102,7 +44,7 @@ const styles = StyleSheet.create({
     //   flex: 1,
     //   padding: 20,
     // //   backgroundColor: 'black',
-    padding:20
+    // padding:20
     },
     title: {
       fontSize: 24,
@@ -115,6 +57,7 @@ const styles = StyleSheet.create({
       fontSize: 16,
       lineHeight: 24,
       color: '#555', // Updated text color
+      padding: 20
     },
     img: {
       height: "100%",
@@ -128,5 +71,9 @@ const styles = StyleSheet.create({
       color: '#fff2ee',
       marginTop:10,
 
+    },
+    item: {
+      color: 'white',
+      fontSize: 20
     }
 });
