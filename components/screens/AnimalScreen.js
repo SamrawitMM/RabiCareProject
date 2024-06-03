@@ -1,6 +1,7 @@
 import { View, Text, Button, StyleSheet, SafeAreaView,
-    ScrollView, Image } from 'react-native'
+    FlatList, Image } from 'react-native'
 import React from 'react'
+import { ScrollView } from 'react-native-virtualized-view'
 
 
 import { en, am, or } from '../../i18n/supportedLanguage';
@@ -18,60 +19,33 @@ export default function Animal() {
   
 
   return (
-
-//     <View style={{backgroundColor:"#000000"}}>
-//     <View style={{backgroundColor:"#000000", width:"100%", height: "40%", alignItems:"center", alignContent:"center", justifyContent:"center"}}>
-//       <Image source={require('../../assets/adoctor_image.png')} style={{width:250, height: 250, borderRadius:50, alignItems:"center", alignContent:"center", justifyContent:"center"}} />
-//     </View>
-//     <View style={{backgroundColor:"#ffffff",  width:"100%", height: "60%", borderTopLeftRadius:50, borderTopRightRadius:50}}>
-//     <Text style={styles.title}>{sign_title}</Text>
-//      <Text style={styles.paragraph}>  
-//         {sign_description}
-//      </Text>
-//     </View>
-//   </View>
-
-
-    <SafeAreaView style={{backgroundColor:"#000000"}}>
+    <View style={{backgroundColor:"#000000"}}>
     <View style={{backgroundColor:"#000000", width:"100%", height: "40%", alignItems:"center", alignContent:"center", justifyContent:"center"}}>
       <Image source={require('../../assets/adoctor_image.png')} style={{width:250, height: 250, borderRadius:50, alignItems:"center", alignContent:"center", justifyContent:"center"}} />
     </View>
-    <ScrollView style={{backgroundColor:"#ffffff",  width:"100%", height: "60%", borderTopLeftRadius:10, borderTopRightRadius:10}}>
-    <View style={styles.container}>
-      <Text style={styles.title}>{anisym_title}:</Text>
-      <View style={styles.bullet}>
-        <Text style={styles.bulletText}>- {anisym_description[0]}</Text>
-      </View>
-      <View style={styles.bullet}>
-        <Text style={styles.bulletText}>- {anisym_description[1]}</Text>
-      </View>
-      <View style={styles.bullet}>
-        <Text style={styles.bulletText}>- {anisym_description[2]}</Text>
-      </View>
-      <View style={styles.bullet}>
-        <Text style={styles.bulletText}>- {anisym_description[3]}</Text>
-      </View>
-      <View style={styles.bullet}>
-        <Text style={styles.bulletText}>- {anisym_description[4]}</Text>
-      </View>
-      <View style={styles.bullet}>
-        <Text style={styles.bulletText}>- {anisym_description[5]}</Text>
-      </View>
-      <View style={styles.bullet}>
-        <Text style={styles.bulletText}>- {anisym_description[6]}</Text>
-      </View>
-      <View style={styles.bullet}>
-        <Text style={styles.bulletText}>- {anisym_description[7]}</Text>
-      </View>
-      <View style={styles.bullet}>
-        <Text style={styles.bulletText}>- {anisym_description[8]}</Text>
-      </View>
-      <View style={styles.bullet}>
-        <Text style={styles.bulletText}>- {anisym_description[9]}</Text>
-      </View>
+    <View style={{backgroundColor:"#ffffff",  width:"100%", height: "60%", borderTopLeftRadius:50, borderTopRightRadius:50}}>
+    <Text style={styles.title}>{anisym_title}</Text>
+    <ScrollView>
+
+
+     <FlatList style={styles.description}
+        data={[
+          { key: anisym_description[0] },
+          { key: anisym_description[1] },
+          { key: anisym_description[2] },
+          { key: anisym_description[3] },
+          { key: anisym_description[4] },
+          { key: anisym_description[5] },
+          { key: anisym_description[6] },
+     
+
+
+        ]}
+        renderItem={({ item }) => <Text style={styles.item}>{`\u2023 ${item.key}\n`}</Text>}
+      />
+     </ScrollView>
     </View>
-    </ScrollView>
-    </SafeAreaView>
+  </View>
   )
 }
 
@@ -85,7 +59,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 20,
     fontWeight: 'bold',
-    marginBottom: 10,
+    margin: 20,
     color: '#333333',
   },
   bullet: {
@@ -98,4 +72,20 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: '#666666',
   },
+  description: {
+    fontSize: 16,
+    lineHeight: 24,
+    color: '#555', // Updated text color
+    padding:20
+  },
+  paragraph:{
+    paddingLeft:10,
+    paddingRight:10,
+    marginLeft:12,
+    marginBottom: 40
+
+  },
+  item: {
+    fontSize: 20
+  }
 });
