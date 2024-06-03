@@ -101,10 +101,17 @@ const en = {
     'Convulsions',
     'Coma'
   ],
+
   treat_title: 'Treatment for Rabies',
-  treat_description1: '  The treatment for rabies typically involves a combination of wound care, vaccination, and, in some cases, administration of rabies immune globulin (RIG). After potential exposure to the rabies virus through a bite or scratch from a rabid animal, immediate wound cleaning and disinfection are crucial to reduce the risk of virus transmission.' ,
-  treat_description2:  ' Post-exposure prophylaxis (PEP) consists of a series of rabies vaccine doses administered over several weeks to stimulate the immune system to produce antibodies against the virus. Additionally, in cases of severe exposure, rabies immune globulin (RIG) may be administered at the wound site to provide immediate passive immunity. Once clinical symptoms of rabies appear, the disease is almost always fatal, with no effective treatment available. Therefore, timely administration of PEP following potential exposure is critical for preventing the development of clinical rabies and saving lives. Public health measures such as vaccination programs for domestic animals and wildlife control are also essential for preventing rabies transmission to humans. ',  sign_title: 'Clinical Sign',
-  
+  treat_description: 'a. Wash the affected area thoroughly with water and soap or alcohol/disinfectant. Although this may not completely remove the virus, it can reduce the amount of virus present.',
+  treat_description1: 'b. Seek immediate medical attention by going to the nearest health station or clinic for first aid.',
+  treat_description2: 'c. If the animal that caused the bite is still alive, it should be observed by a veterinarian for 10 days.',
+  treat_description3: 'd. If the animal under observation shows symptoms during the observation period, the person bitten should immediately receive a preventive vaccine.',
+  treat_description4: 'e. If the animal that caused the bite is suspected of being infected, it should be euthanized. If it dies within the 10-day observation period, its brain should be sent to the Ethiopian Health and Nutrition Research Institute for examination. The remaining parts of the body should be incinerated or buried properly.',
+  treat_description5: 'f. If the examination confirms that the animal was infected, the person bitten should immediately begin receiving preventive vaccinations.',
+  treat_description6: 'g. If the bite is severe, especially if it is on the head or neck, or if the wound is large, the bitten person should start preventive vaccination immediately and also receive rabies immunoglobulin to prevent the virus from spreading to the nerves.',
+  treat_description7: 'h. If the person infected with the disease shows symptoms, it is important to handle them with care to avoid spreading the infection. The caregiver should use protective gloves and avoid close contact to prevent being bitten or scratched. After providing care, hands and face should be washed thoroughly with soap. It is essential to consult a doctor if there is any contact that might have spread the infection.',
+
   sign_title: 'Clinical Sign',
   sign_description1: ' Clinical signs of rabies can vary depending on the stage of the disease, but commonly include neurological symptoms such as behavioral changes, agitation, confusion, hallucinations, and paralysis. ',
   sign_description2: ' As the disease progresses, affected individuals may exhibit hypersalivation (foaming at the mouth), hydrophobia (fear of water), aerophobia (fear of drafts or air), and difficulty swallowing. Other signs may include fever, headache, and muscle weakness. In the later stages, patients may lapse into a coma before succumbing to respiratory failure and death. Recognizing these clinical signs is essential for early diagnosis and prompt initiation of post-exposure prophylaxis to prevent the progression of rabies, as the disease is nearly always fatal once symptoms manifest. ',
@@ -216,7 +223,7 @@ const am = {
   treat_description4: 'ሠ. ንክሻ የፈጸመው እንስሳ በበሽታው ተለክፏል ተብሎ የሚጠረጠር ከሆነ እንስሳውን ገድሎ ወይንም በ10 ቀን ክትትል ጊዜ ውስጥ ቢሞት ጭንቅላቱን ቆርጦ ወደ ኢትዮጵያ ጤናና ስነ ምግብ ምርምር ኢንስቲትዩት በመላክ እንዲመረመር ማድረግ አለበት፡፡ የቀረውን የሰውነት ክፍል (በድን) ማቃጠል ወይም አርቆ መቅበር ያስፈልጋል፡፡',
   treat_description5: 'ረ. የእንስሳው ጭንቅላት ተመርምሮ በበሽታው ተጠቂ መሆኑ ከተረጋገጠ ተነካሹ ሰው በአስቸኳይ የመከላከያ ክትባት መከታተል ይኖርበታል፡፡ ',
   treat_description6: 'ሰ. የንክሻው ዓይነት ከበድ ያለ ከሆነ በተለይም ከአንገት በላይ የተፈጸመ ንክሻ ከሆነ እንዲሁም ንክሻው ሰፋ ያለ ቦታ የሚሸፍን ከሆነ የእንስሳው የ10 ቀን ክትትል ውጤት እስኪታወቅ ድረስ ተነካሹ የመከላከያ ክትባት መጀመር ይኖርበታል በተጨማሪም ኢሙኖግሎቡሊን (Rabies Immunoglobulin) በቁስሉ ዙርያ በመስጠት ቫይረሱ ወደ ነርቭ እንዳይሰራጭ እዚያው በተወሰነ ደረጃ ለማገድ ይረዳል፡፡ ',
-  treat_description7: ' ሸ. በበሽታው ተይዞ ሕመሙ የጀመረው ሰው ለሀጭ ማዝረብረብና ለመናከስም ስለሚከጅል በጥንቃቄ ማስታመም አስፈላጊ ነው፡፡ ከለሀጭ ጋር ከሚደረግ ንክኪ ባሻገር በሽተኛው አስታማሚው ፊት ላይ ሊተፋ ስለሚችል በሽተኛውን በጣም ባይቀርቡት ይመረጣል፡፡ በተረፈ ግን የእጅ መሸፈኛ ላስቲክ ወይም ጓንት በማድረግ ማስታመምና የሚፈለገውን እርዳታ ማድረግ ይቻላል፡፡ ለበሽተኛው የሚፈለገው እርዳታ ከተከናወነ በኋላ በደንብ እጅና ፊትን በሳሙና መታጠብ ያስፈልጋል፡፡ ስለዚህ በበሽታው ከተያዘ ሰው ጋር ለሚደረግ ማንኛውም ለበሽታው የሚያጋልጥ ንክኪ ሲኖር ሐኪም ማማከር ያስፈልጋል፡፡',
+  treat_description7: 'ሸ. በበሽታው ተይዞ ሕመሙ የጀመረው ሰው ለሀጭ ማዝረብረብና ለመናከስም ስለሚከጅል በጥንቃቄ ማስታመም አስፈላጊ ነው፡፡ ከለሀጭ ጋር ከሚደረግ ንክኪ ባሻገር በሽተኛው አስታማሚው ፊት ላይ ሊተፋ ስለሚችል በሽተኛውን በጣም ባይቀርቡት ይመረጣል፡፡ በተረፈ ግን የእጅ መሸፈኛ ላስቲክ ወይም ጓንት በማድረግ ማስታመምና የሚፈለገውን እርዳታ ማድረግ ይቻላል፡፡ ለበሽተኛው የሚፈለገው እርዳታ ከተከናወነ በኋላ በደንብ እጅና ፊትን በሳሙና መታጠብ ያስፈልጋል፡፡ ስለዚህ በበሽታው ከተያዘ ሰው ጋር ለሚደረግ ማንኛውም ለበሽታው የሚያጋልጥ ንክኪ ሲኖር ሐኪም ማማከር ያስፈልጋል፡፡',
 
 
   sign_title: 'የበሽታው መደራጃ ጊዜ እና የህመሙ ምልክቶች',
@@ -299,13 +306,21 @@ const or = {
   incu_description4: 'Warra qufaame gubbaa fi jalaa qaama isaanii kan hin walfakkaanne yeroo itti mallattoon dhibee mul’atu.',
   incu_description5: 'Dhibeen dhukkuba saree mallattoon isaa itti mul’atuun dura qusaa irratti gubuu, hoo’uu, boo’uu, boo’icha, fi dhukkubni qusaa irratti uumamuun dura mataa dhukkubsachuu, hoo’uu, fi dadhabbiin itti fufa.',
   incu_description6: 'Mallattoon kun kan dhukkuboota biroo irraa uumamu danda’a, kanaaf ogeessa fayyaa waliin mari’achuun barbaachisaadha.',
-  
+
   anisym_title: 'Gareesa Harka Qulqulluu',
   anisym_description: ['Harka qulqulluu', 'hiriyootaa', 'fagaala qe\'uu', 'daqiiqaa', 'beekumsaa', 'teebita', 'Isa', 'gaaffii fiixaa', 'fagaala dubbii', 'korma.'],
   husym_title: 'Gareesa Harka Qulqulluu Bilisummaa',
   husym_description: ['Harka qulqulluu' , 'hiriyootaa', 'fagaala qe\'uu', 'daqiiqaa', 'beekumsaa', 'teebita', 'Isa', 'gaaffii fiixaa', 'fagaala dubbii', 'korma.'],
-  treat_title: 'Gareesa Harka Walqunnamuu',
-  treat_description: 'Harka walqunnamuu walii gaafatu waliin barbaachisaa jira. Dandeettii qaba osoo hundaa walii gaafatanii mirkaneesse qabuun, deebii fi furmaan baraaruuf qabdu. Baraaruuf keessatti maddi isaa waliif godhanii walii gaafatanii naannoo barbaachisuun dhimma isaanii dubbifameera.',
+  
+  treat_title: 'Maalimaa Dhibee Fudhatamu',  treat_description: 'Harka walqunnamuu walii gaafatu waliin barbaachisaa jira. Dandeettii qaba osoo hundaa walii gaafatanii mirkaneesse qabuun, deebii fi furmaan baraaruuf qabdu. Baraaruuf keessatti maddi isaa waliif godhanii walii gaafatanii naannoo barbaachisuun dhimma isaanii dubbifameera.',
+  treat_description: 'a. Naannoo qufame sun bishaan fi saamuu ykn alkoolii/disinfeektiintii waliin qulqulleessi. Kun rakkoo virusaa guutummaan guutuutti hin balleessu ta\'uus, baay\'ina virusii jiru ni hir\'isa.',
+  treat_description1: 'b. Gargaarsa fayyaa ariifachiisaa fi duraa argachuuf gara buufata fayyaa yookin kilinikaa fagoo hin jirre deemuu.',
+  treat_description2: 'c. Yoo bineensa qufame sun jiraate, ogeessa fayyaa bineensotaatiin guyyoota 10f hordofamu qaba.',
+  treat_description3: 'd. Yoo bineensichi yeroo hordoffii mallattoo dhukkuba mul’ise, namni qufame sun ariifachuun talaallii ittisaa fudhachuu qaba.',
+  treat_description4: 'e. Yoo bineensichi dhukkuba qabachuu yaaddessaa ta\'e, bineensichi ajjeefamuu qaba. Yoo guyyoota 10 keessatti du\'e, qoma bineensichaa gara Institituutii Fayyaa fi Nyaata Itiyoophiyaa ergamee qorannaan geggeeffamuu qaba. Harki qaamaa bineensichaa hafe ni gubamuu yookin awwaalamu qaba.',
+  treat_description5: 'f. Yoo qorannaan bineensichi dhukkuba qabachuu mirkaneesse, namni qufame sun ariifachuun talaallii ittisaa fudhachuu qaba.',
+  treat_description6: 'g. Yoo qufa jabaataa ta’e, addatti yoo kan mataa yookin morma qufame ta’e, yookin yoo qusaan gubbaa bal\'aa ta\'e, namni qufame sun ariifachuun talaallii ittisaa jalqabuu qaba, akkasumas Raabisii Immuunooloogluubulinii (Rabies Immunoglobulin) qufa naannoo qufa sanatti akka hin facaane ittisuuf fudhatamuu qaba.',
+  treat_description7: 'h. Namni dhukkuba qabatee mallattoon dhukkubaa yoo mul’ate, eegumsaa fi of eeggannoo godhuun dirqama. Namni kun keessumaa seelii dhukkuba kanatti fayyadamuun akka hin saaxilamne eeguu barbaachisaadha. Qoricha ittisaa fi gargaarsa barbaachisu fudhachuuf fayyaalessa waliin mari\'achuun barbaachisaadha. Kana booda harka fi fuula isaa waliin saamuun dhaquu barbaachisaadha.',
   
   sign_title: 'Gareesa Carraa Haaraa',
   sign_description1: 'Carraa haaraa dandeettiin keessatti maddi keessan irra deebisuun tuffii barbaachisaa jira. Walii gaafatanii walii abbaa isaanii mirkaneessuun furmaan mirkaneeffamuun namoonni kana akka dandeenyeetti maddi isaa muddama gaafachuun hubatamuun, walii gaafatu waliin barbaachisaa jira. ',

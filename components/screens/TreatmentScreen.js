@@ -1,83 +1,46 @@
-import { Text, StyleSheet, View, Image, Icon, ImageBackground, TouchableOpacity } from "react-native";
+import { Text, StyleSheet, View, Image, Icon, ImageBackground, TouchableOpacity, FlatList } from "react-native";
 
-import { ScrollView, TextInput } from 'react-native-gesture-handler';
+import { TextInput } from 'react-native-gesture-handler';
 import { en, am, or } from '../../i18n/supportedLanguage';
 import { useSelector } from 'react-redux';
+import { ScrollView } from 'react-native-virtualized-view'
 
 
 const translations = { en, am, or};
 
 export default function Treatment() {
     const language = useSelector(state => state.language.language);
-    const { treat_title, treat_description1, treat_description2 } = translations[language];
+    const { treat_title, treat_description, treat_description1, treat_description2, treat_description3, treat_description4, treat_description5, treat_description6, treat_description7 } = translations[language];
 
 
   return (
-    <ScrollView
-      showsVerticalScrollIndicator={false}
-      style={{
-        // height: "300%",
-        backgroundColor: "#044244",
-      }}
-    >
-      <View
-        style={{
-          height: 260,
-          width: "100%",
-          paddingHorizontal: 25,
-          backgroundColor: "#042a44",
-
-        }}
-      >
-            <Image source={require('../../assets/adoctor_image.png')} style={styles.img} />
-
-        <View style={{
-          flexDirection: "row",
-          width: "100%",
-          paddingTop: 40,
-          alignItems: "center",
-          // backgroundColor: "#04ff44",
-
-        }}>
-          
-          {/* <View style={{
-            width: "50%",
-            backgroundColor: "#045544",
-
-          }}>
-          </View> */}
-
-<View style={{
-                    // flexDirection:"row",
-                    // borderColor:"#9ca1a2",
-                    // borderRadius:20,
-                    // borderWidth:0.2,
-                    // paddingVertical:5,
-                    // alignItems:"center"
-                }}>
+    <View style={{backgroundColor:"#000000"}}>
+    <View style={{backgroundColor:"#000000", width:"100%", height: "40%", alignItems:"center", alignContent:"center", justifyContent:"center"}}>
+      <Image source={require('../../assets/adoctor_image.png')} style={{width:250, height: 250, borderRadius:50, alignItems:"center", alignContent:"center", justifyContent:"center"}} />
+    </View>
+    <View style={{backgroundColor:"#ffffff",  width:"100%", height: "60%", borderTopLeftRadius:50, borderTopRightRadius:50}}>
+    <Text style={styles.title}>{treat_title}</Text>
+    <ScrollView>
 
 
-          </View>
+     <FlatList style={styles.description}
+        data={[
+          { key: treat_description },
+          { key: treat_description1 },
+          { key: treat_description2 },
+          { key: treat_description3 },
+          { key: treat_description4 },
+          { key: treat_description5 },
+          { key: treat_description6 },
+          { key: treat_description7 },
 
 
-
-        </View>
-        
-      </View>
-      
-
-
-       <View style={styles.container}>
-        <Text style={styles.title}>{treat_title}</Text>
-        <Text style={styles.paragraph}>
-          {treat_description1}</Text>
-               
-          <Text style={styles.paragraph}>
-          {treat_description2}
-        </Text>
-      </View> 
-
-    </ScrollView>
+        ]}
+        renderItem={({ item }) => <Text style={styles.item}>{`\u2023 ${item.key}\n`}</Text>}
+      />
+     </ScrollView>
+    </View>
+  </View>
 
   );
 }
@@ -109,10 +72,15 @@ const styles = StyleSheet.create({
     lineHeight: 24,
     color: '#555', 
     // Updated text color
+    padding: 20
   },
   img: {
     height: "100%",
     width: "100%",
     resizeMode: "contain",
   },
+
+  item: {
+    fontSize: 20
+  }
 });
