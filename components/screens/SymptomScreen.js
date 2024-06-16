@@ -1,9 +1,7 @@
 import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { MaterialCommunityIcons } from '@expo/vector-icons';
 import Animal from './AnimalScreen';
 import Human from './HumanScreen';
-// import SettingsScreen from './SettingsScreen';
 
 const Tab = createBottomTabNavigator();
 
@@ -36,15 +34,7 @@ const SymptomTabNavigator = () => {
           ),
         }}
       />
-      {/* <Tab.Screen
-        name="Setting"
-        component={SettingsScreen}
-        options={{
-          tabBarIcon: ({ size, color }) => (
-            <MaterialCommunityIcons name="account" size={size} color={color} />
-          ),
-        }}
-      /> */}
+
     </Tab.Navigator>
   );
 };

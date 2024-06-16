@@ -16,18 +16,18 @@ const en = {
   cla_description7:
     'The species responsible for causing rabies in mammals, including humans.'
   ,
-  
+
   // tax_title: 'Taxonomy for Rabies',
   // tax_description: 'Rabies is a viral disease that affects the central nervous system of mammals, including humans. It is caused by the rabies virus, which belongs to the genus Lyssavirus and the family Rhabdoviridae. The rabies virus is typically transmitted through the saliva of infected animals, usually via a bite. Once the virus enters the body, it travels to the brain, leading to symptoms such as fever, headache, confusion, agitation, hallucinations, paralysis, and ultimately death.  Rabies is preventable through vaccination and post-exposure prophylaxis, but it remains a significant public health concern in many parts of the world.',
-  
+
   pat_title: 'Pathogenesis',
   pat_description: ' The pathogenesis of rabies begins with the entry of the virus into the body through the saliva of infected animals, typically transmitted via bites.',
-  pat_description1:' The virus then replicates locally at the site of entry before traveling along peripheral nerves towards the central nervous system. ',
-  pat_description2:' Upon reaching the brain and spinal cord, the virus infects neurons, leading to the onset of clinical symptoms such as fever, headache, and neurological dysfunction. ',
-  pat_description3:' As the disease progresses, the virus spreads to the salivary glands, increasing the risk of transmission through saliva.',
-  pat_description4:' Rabies is almost always fatal once symptoms appear, with death usually occurring due to respiratory failure or cardiac arrest.',
-  pat_description5:' Despite the immune response, which is often ineffective in clearing the virus from the central nervous system, vaccination and post-exposure prophylaxis remain crucial for preventing clinical rabies.',
-  pat_description6:' Despite the immune response, which is often ineffective in clearing the virus from the central nervous system, vaccination and post-exposure prophylaxis remain crucial for preventing clinical rabies2.',
+  pat_description1: ' The virus then replicates locally at the site of entry before traveling along peripheral nerves towards the central nervous system. ',
+  pat_description2: ' Upon reaching the brain and spinal cord, the virus infects neurons, leading to the onset of clinical symptoms such as fever, headache, and neurological dysfunction. ',
+  pat_description3: ' As the disease progresses, the virus spreads to the salivary glands, increasing the risk of transmission through saliva.',
+  pat_description4: ' Rabies is almost always fatal once symptoms appear, with death usually occurring due to respiratory failure or cardiac arrest.',
+  pat_description5: ' Despite the immune response, which is often ineffective in clearing the virus from the central nervous system, vaccination and post-exposure prophylaxis remain crucial for preventing clinical rabies.',
+  pat_description6: ' Despite the immune response, which is often ineffective in clearing the virus from the central nervous system, vaccination and post-exposure prophylaxis remain crucial for preventing clinical rabies2.',
 
   host_title: 'Host Susceptibility',
   host_description: 'The rabies preventive vaccine for humans is administered in two situations: pre-exposure and post-exposure vaccinations.',
@@ -40,7 +40,7 @@ const en = {
   trans_description3: ' Once the virus enters the body, it travels along peripheral nerves towards the central nervous system, leading to the onset of clinical symptoms.',
   trans_description4: ' Additionally, rabies can also be transmitted through exposure to infected saliva, such as through mucous membranes or open wounds, although this mode of transmission is less common.',
   trans_description5: ' Prompt medical treatment, including Vaccination and post-exposure prophylaxis, is crucial following exposure to rabies to prevent the development of clinical disease. Public health measures aimed at controlling rabies in animal populations, such as vaccination campaigns and population management strategies, are essential for reducing the risk of transmission to humans. ',
- 
+
   incu_title: 'Incubation period',
   incu_description: 'This is the period from the day a person is bitten until the symptoms of the disease begin to appear.',
   incu_description1: 'What differentiates rabies from other diseases is the lack of a constant incubation period.',
@@ -50,7 +50,7 @@ const en = {
   incu_description5: 'Before the symptoms of rabies start, there may be itching, tingling, or pain around the bite area, followed by headaches, fever, and fatigue.',
   incu_description6: 'These symptoms can also occur due to other diseases, so it is essential to consult a doctor.',
 
-  
+
   anisym_title: 'Common Symptoms',
   anisym_description: [
     'Fever',
@@ -104,7 +104,7 @@ const en = {
   hosp_description7: 'There is no preliminary test to confirm whether the disease can be transmitted to humans or animals. Without medical treatment, the survival chances for those infected are very low.',
   hosp_description8: 'Therefore, anyone exposed to a potential rabid bite or scratch from an animal should immediately consult a doctor without delay.',
 
-  home_title : 'Maxx Scooter',
+  home_title: 'Maxx Scooter',
   home_desc: 'With an updated motor, and integrated anti-theft tech the maxx scooters are custom-tuned for the ultimate riding experience.',
   home_but: 'Next',
 
@@ -129,10 +129,10 @@ const am = {
   cla_description5: ' የዚህን በሽታ ቫይረስ ከሌሎች የቫይረስ አይነቶች ልዩ የሚያደርገው መኖሪያው ወይም መራቢያው በነርቭ ሕዋስ በአመዛኙ አንጎል ውስጥ መሆኑ ነው፡፡ ',
   cla_description6: ' በንክሻ አማካኝነት ስሜታዊና አንቀሳቃሽ የነርቭ ጫፍ ወይም ጭራ (Sensory and motor nerve endings) ካገኘ በኋላ ወደ ተቀሩት ሌሎች የነርቭ ሕዋሶች እየተሸጋገረ በሕብለሰረሰር (Spinal cord) አድርጎ ወደ አንጎል ይደርሳል፡፡ ',
   cla_description7: 'ይህ በሽታ ነርቮችን፣ አንጎልንና ጡንቻዎችን በማደንዘዝ ህሊናን ሰውሮ በአጭር ጊዜ ውስጥ ሕይወትን ሊያጠፋ የሚችል አደገኛና አሰቃቂ በሽታ ነው፡፡ ',
-  
+
   // tax_title: 'የራብዬስ ለባሪያ',
   // tax_description: ' ራብዬስ እንዴት በማህበረሰብ የተቃጠለው እናት እና ለአንዲት ዓይነት የወለዱ የእንቅስቃሴ ምልክቶች ይመስላል። ይህ እንቅስቃሴ ራብዬስ በርካታ እንዲሆን ከዓይኑ በታች ለሚሆን የውሃው የቅርብ ወረራ እና ብዛት በሚያስፈልግ የእንቅስቃሴ ቫይረስ ሁሉም ነው።',
-  
+
   pat_title: 'የበሽታው ስርጭት',
   pat_description: ' የራብዬስ አስነስተኛ ታሪክ የራብዬስ ቫይረስ ላይ በዓይነት ራብዬስ በሚካተት በዓይንህ ልጆች መንደር እንዲሆን ስራውን እንደሚከተለው እና ከዓይኑ በታች በሚሆን የሰነድ ምልክት ይመስላል።',
   pat_description1: ' ውሻን የሚያሳብድ በሽታ በተለምዶ ስሙ የእብድ ውሻ በሽታ እየተባለ ይጠራ እንጂ በበሽታው የሚጠቁ እንስሳት ብዙ ናቸው፡፡ ',
@@ -144,8 +144,8 @@ const am = {
 
   host_title: 'መከላከያ ክትባት',
   host_description: ' ውሻን ለሚያሳብደው በሽታ መከላከያ ክትባት ለሰዎች የሚሰጠው በሁለት አይነት ሁኔታዎች ነው፡፡ እነዚህም ቅድመ-ንክሻ እና ድህረ-ንክሻ መከላከያ ክትባት በመባል ይታወቃሉ፡፡',
-  host_description1:' ቅድመ-መጋለጥ ክትባት (Pre-exposure) የሚባለው ከእንስሳት ጋር በቅርበት ለሚሰሩ ባለሞያዎች፤ ለእንስሳት ሀኪሞች፤ የበሽታው ምርመራ በሚከናወንበት ላብራቶሪ ውስጥ ለሚሰሩ፤ በዱር እንስሳት ጥበቃና ፓርክ ሰራተኞች፤ በሆስፒታል የጤና ባለሞያዎችና ተጓዦች በተለየ መልኩ ለበሽታው ሊጋለጡ ስለሚችሉ የሚሰጥ የመከላከያ ክትባት አይነት ነው፡፡ ',
-  host_description2:' ድህረ-መጋለጥ መከላከያ ክትባት (Post-exposure) የሚባለው ደግሞ በተለይ የበሽታው አምጪ የሆነው ቫይረስ በንክሻም ሆነ በሌሎች አጋጣሚዎች ወደ ሰውነት ከገባ በኋላ የሚሰጥ ክትባት ነው፡፡ ይህም የመከላከያ ክትባት መውሰድ የሚገባቸው በበሽታው ተለክፏል ተብሎ በተጠረጠረ ወይም በተረጋገጠ እብድ እንስሳ የተነከሱ ሰዎች ብቻ ናቸው፡፡ ማንኛውም ሰው በአበደ ወይም አብዷል ተብሎ በተጠረጠረ እንስሳ ቢነከስ ወይም ተናካሹ እንስሳ ለምርመራ ወደ እንሰሳት ሐኪም ዘንድ ሳይቀርብ ሲቀር ወዲያውኑ የባለሙያ ምክርና አገልግሎት ማግኘት አለበት፡፡ ',
+  host_description1: ' ቅድመ-መጋለጥ ክትባት (Pre-exposure) የሚባለው ከእንስሳት ጋር በቅርበት ለሚሰሩ ባለሞያዎች፤ ለእንስሳት ሀኪሞች፤ የበሽታው ምርመራ በሚከናወንበት ላብራቶሪ ውስጥ ለሚሰሩ፤ በዱር እንስሳት ጥበቃና ፓርክ ሰራተኞች፤ በሆስፒታል የጤና ባለሞያዎችና ተጓዦች በተለየ መልኩ ለበሽታው ሊጋለጡ ስለሚችሉ የሚሰጥ የመከላከያ ክትባት አይነት ነው፡፡ ',
+  host_description2: ' ድህረ-መጋለጥ መከላከያ ክትባት (Post-exposure) የሚባለው ደግሞ በተለይ የበሽታው አምጪ የሆነው ቫይረስ በንክሻም ሆነ በሌሎች አጋጣሚዎች ወደ ሰውነት ከገባ በኋላ የሚሰጥ ክትባት ነው፡፡ ይህም የመከላከያ ክትባት መውሰድ የሚገባቸው በበሽታው ተለክፏል ተብሎ በተጠረጠረ ወይም በተረጋገጠ እብድ እንስሳ የተነከሱ ሰዎች ብቻ ናቸው፡፡ ማንኛውም ሰው በአበደ ወይም አብዷል ተብሎ በተጠረጠረ እንስሳ ቢነከስ ወይም ተናካሹ እንስሳ ለምርመራ ወደ እንሰሳት ሐኪም ዘንድ ሳይቀርብ ሲቀር ወዲያውኑ የባለሙያ ምክርና አገልግሎት ማግኘት አለበት፡፡ ',
 
 
   trans_title: 'መተላለፊያ መንገዶች',
@@ -154,18 +154,18 @@ const am = {
   trans_description3: ' በበሽታው የተያዘ ውሻ ሌላ እንስሳን በሚነክስበት ጊዜ በለሀጩ ውስጥ የሚገኘው የበሽታው አምጪ ረቂት ወይም ቫይረስ በቀላሉ ወደ ሌላኛው እንስሳ መተላለፍ ስለሚችል ነው፡፡ ',
   trans_description4: ' በአለም እስካሁን ድረስ በምርምር በሽታው ከሰው ወደ ሰው እንደሚተላለፍ የተረጋገጠ መረጃ የለም ሆኖም ግን በሀገራችን አንድ እናት ውሻን በሚያሳብድ በሽታ ተይዘው ለሕክምና ወደ ኢትዮጵያ ጤናና ስነ ምግብ ምርምር ኢንስቲትዩት መጥተው እንዴት እንደያዛቸው ሲጠየቁ በበሽታው ታሞ ከሞተው ልጃቸው በስተቀር ምንም አይነትእንስሳ እንዳልነከሳቸው ወይም ንክኪ እንዳልነበራቸው ተናግረዋል፡፡',
   trans_description5: ' ሌላኛዋ የበሽታው ተጠቂ የሆነች የ 24 ዓመት ሴት ታማ በሞተች በ36ኛው ቀን የ5 ዓመት ልጅዋ ታሞ ሞቷል፤ እሱም በእንስሳ አለመነከሱም ከቤተሰብ የተገኘው መረጃ ይገልጻል፡፡',
-  
+
   incu_title: 'ቅድመ ሕመም',
   incu_description: ' የምንለው አንድ ሰው ከተነከሰበት ቀን ጀምሮ የሕመም ምልክት እስከሚጀመረበት ያለውን የቫይረሱን የመደራጃ ጊዜ ነው፡፡',
-  incu_description1:' ውሻን የሚያሳብድ በሽታ ከሌሎች በሽታዎች የሚለየው ቋሚ (Constant) የሆነ የመደራጃ ጊዜ ስለሌለው ነው፡፡ ',
-  incu_description2:' የቫይረሱን የመራቢያ ጊዜ አጭር ወይንም ረጅም መሆኑን የሚወስኑት የቁስሉ ጥልቀት ወይም ስፋት፣ በንክሻው ጊዜ የገባው የቫይረስ መጠን፤የሰውየው በሽታ የመከላከል አቅም ናቸው፡፡',
-  incu_description3:' ቁስሉ እየሰፋና እየጠለቀ በሄደ ቁጥር የሚገባው የረቂት ወይም የቫይረስ መጠን እጅግ የበዛ ሲሆን ረቂቱ ወይም ቫይረሱ የነርቭ ሕዋስን የማግኘት እድሉ እየጨመረ ስለሚሄድ የመራቢያ ጊዜው አጭር ይሆናል፡፡ ',
-  incu_description4:' ከአንገት በላይና ከአንገት በታች የተነከሱ ሰዎችም ሆኑ እንስሳት ወደ አካላቸው የገባው ቫይረስ የመራቢያ ጊዜው እኩል ስለማይሆን ሕመሙም እኩል አይጀምራቸውም፡፡ ',
-  incu_description5:' ውሻን የሚያሳብድ በሽታ ሕመም ከመጀመሩ በፊት በቁስሉ አካባቢ የማሳከክ፣ የመደንዘዝና፣ የመቆጥቆጥ ስሜቶች ይጀምሩትንና በመቀጠልም ራስ ምታት፣ ትኩሳትና ድካም ይሰማዋል፡፡ ',
-  incu_description5:' እነዚህ የህመም ምልክቶች በሌላ በሽታም ሊከሰቱ ስለሚችሉ ሐኪም ማማከር ያስፈልጋል፡፡ ',
+  incu_description1: ' ውሻን የሚያሳብድ በሽታ ከሌሎች በሽታዎች የሚለየው ቋሚ (Constant) የሆነ የመደራጃ ጊዜ ስለሌለው ነው፡፡ ',
+  incu_description2: ' የቫይረሱን የመራቢያ ጊዜ አጭር ወይንም ረጅም መሆኑን የሚወስኑት የቁስሉ ጥልቀት ወይም ስፋት፣ በንክሻው ጊዜ የገባው የቫይረስ መጠን፤የሰውየው በሽታ የመከላከል አቅም ናቸው፡፡',
+  incu_description3: ' ቁስሉ እየሰፋና እየጠለቀ በሄደ ቁጥር የሚገባው የረቂት ወይም የቫይረስ መጠን እጅግ የበዛ ሲሆን ረቂቱ ወይም ቫይረሱ የነርቭ ሕዋስን የማግኘት እድሉ እየጨመረ ስለሚሄድ የመራቢያ ጊዜው አጭር ይሆናል፡፡ ',
+  incu_description4: ' ከአንገት በላይና ከአንገት በታች የተነከሱ ሰዎችም ሆኑ እንስሳት ወደ አካላቸው የገባው ቫይረስ የመራቢያ ጊዜው እኩል ስለማይሆን ሕመሙም እኩል አይጀምራቸውም፡፡ ',
+  incu_description5: ' ውሻን የሚያሳብድ በሽታ ሕመም ከመጀመሩ በፊት በቁስሉ አካባቢ የማሳከክ፣ የመደንዘዝና፣ የመቆጥቆጥ ስሜቶች ይጀምሩትንና በመቀጠልም ራስ ምታት፣ ትኩሳትና ድካም ይሰማዋል፡፡ ',
+  incu_description5: ' እነዚህ የህመም ምልክቶች በሌላ በሽታም ሊከሰቱ ስለሚችሉ ሐኪም ማማከር ያስፈልጋል፡፡ ',
 
 
-  
+
   anisym_title: 'የቫይረሱ ምልክቶች',
   anisym_description: [
     ' ቁጡ ይሆናል፣ ',
@@ -175,7 +175,7 @@ const am = {
     ' ወዲያና ወዲህ ይሮጣል፣ ',
     ' ለመዋጋት ይሞክራል፣ ',
     ' ለሀጭ ያዝረበርባል በመጨረሻም ሽባ ሆኖ ይሞታል',
-  
+
   ],
 
   // husym_title: 'የራብዬስ አንባቢ ምልክቶች በገንዘብ',
@@ -191,7 +191,7 @@ const am = {
   //   'የማያሳንፈን ምንጭ',
   //   'ቆመ'
   // ],
-  
+
   treat_title: 'ለበሽታው የሚደረግ ህክምና',
   treat_description: 'ሀ. የተነከሰው አካል በውሃና በሳሙና ወይም በአልኮል/በአረቄ/ በደንብ ማጠብ፤ ይህም ሙሉ ለሙሉ ባይሆንም በመጠኑ የገባውን ረቂት ወይም ቫይረስ መጠን ይቀንሳል፡፡ ',
   treat_description1: 'ለ. ቁስሉን ወደ አቅራቢያው ጤና ጣቢያ ወይም ክሊኒክ በመሄድ የመጀመሪያ የሕክምና እርዳታ ማግኘት አለበት፡፡',
@@ -218,104 +218,106 @@ const am = {
   hosp_description7: ' በእንስሳትም ሆነ በሰዎች በበሽታው ለመያዛቸው ለማረጋገጥ የሚያስችል የቅድመ ምርመራ የለም፡፡ ውሻን የሚያሳብድ በሽታ ምልክት ለታየበት ሰው ከበሽታው ለመፈወስ የሚደረግ የሕክምና እርዳታ ስለሌለ ሰዎች የመዳን እድላቸው በጣም ዝቅተኛ ነው፡፡ ',
   hosp_description8: ' ስለዚህ ማንኛውም ሰው ለበሽታው ሊያጋልጥ የሚችል ንክሻ ወይንም ከእንስሳው ምራቅ ወይም ለሀጭ ጋር ንክኪ ካለው ጊዜ ሳይሰጡ ሀኪም ማማከር ያስፈልጋል፡፡',
 
-  home_title: 'ማክስ ስክዯትር',
-  home_desc: 'በየቀኑ አዲስ ደህና እና የተከፈተ ረቂቅዎች ከፍተኛ መሸጋ እንዲኖሩ የማክስ ስክዯትርን የሚቆጣጠሩት ተጠናቂነትን የመንገድ አልባ በማንበብ እና ስለሚለወጥ መንከላችንን እንዲከተሉ ማክስ ስክዯትርን አጥብቆ እንዲያሰራጩ፣ ማሰራጨትና ማንበብ ይችላሉ።',
+  home_title: 'ራቢኬር',
+  home_desc: 'የራቢኬር መተግበሪያ ለተጠቃሚዎች ስለበሽታው አስፈላጊ እውቀትን ያስጨብጣል፣ በመረጃ የተደገፈ የጤና ውሳኔዎችን እና ስለ በሽታው ምልክቶች መረጃ ይሰጣል።',
   home_but: 'ቀጥል',
 
-  about_title: 'ስለ እኛ',
-  about_desc: 'እኛን እየሰራን እና ወደ ሙሉ የሕመም መከላከያ እንዲሁም የሚኖር ክትባት መተንተን እንዲሆን ነው፡፡',
-  about_quote: 'በአንድነት የራብእንዴት የነፃነት ዝርዝር እንዲሆን እኛ መንከላከል እንደአንዱ ነን፡፡',
-  about_contact: 'በተጨማሪም መረጃ ለመረጃ ከታች ያነጋገረን: info@rabiesawareness.org',
-  home_screen: 'መነሻ' 
+  about_title: 'ስለ',
+  about_desc: 'አስፈላጊውን እውቅት በማስጨበጥ የራቢስን በሽታ እንከላከል፡፡',
+  about_quote: 'የተሰራው: በ ቴዎድሮስ ለገሰ',
+  about_contact: 'ኢሜይል: tewoderos.legesse@aau.edu.et',
+  home_screen: 'ዋና'
 
 
 
 };
 const or = {
-  
-  cla_title: 'Galuun Itti Dhihaatu',
 
-  cla_description1: ' Kn gaaffii siyaasaa waliin taasise, kanaafis duubatti tasgabbii ykn kan abbootii ittiin hafe.',
-  cla_description2: ' Jedhuun biyyoolessaa fi daamna jedhamanii dhidheessu, waggoota yeroo irraa dhufeetti hirmaata guddaa qaba.',
-  cla_description3: ' Keessattuu kan dimookiraasii biyya irratti deebi’aniif kabaju qabatamaan qaba.',
-  cla_description4: ' Hojii caalaatti gargaarsiisaa jiru, xiqqoo, edaa fi qe’ee waan ta’eef deebii dabalatee guddaa akka jiraatu gaaffii isaa akka irraa ittiin qabnuuf.',
-  cla_description5: ' Yeroo hundaa waan tarkaanfii, heddummaan, xayyoo fi qaxxaamurraan kaayyoo fi dhaloota ala jiraataa dha.',
-  cla_description6: ' Isaan kunoo kan ni gababsiisuu dha.',
-  cla_description7: ' Rabies kan dhalataan dura darbanii iddoo qofa qaba.',
-  
+  cla_title: 'Vaayirasiin dhukkuba fidu',
+
+  cla_description1: ' Dhukkubni saree maraattee ykn dhukkubni saawwan maraachisu dhukkuba guyyaa guyyaan nama miidhudha. Waggaa keessatti Bara 1271 Faransaayitti weerarri dhukkuba saree maraattee akka turee fi dhukkubni kun lukkuudhaan akka babal’ate seenaan nutti hima.',
+  cla_description2: ' Saree maraatuun dhukkuba vaayirasii raabdoovaayirasii jedhamu irraa dhufudha; Nama dabalatee hoosistoota dhiiga ho\'aa qaban hunda ni faala.',
+  cla_description3: ' Maaykirooskooppii elektiroonii wantoota maaykirooskoopii agarsiisuu danda’uun yeroo ilaalamu boca rasaasaa kan qabuu fi gama tokkoon walakkaa geengoo kan ta’ee fi gama biraatiin ammoo diriiraa dha.',
+  cla_description4: ' Vaayirasiin qaama dhibee kanaan qabame keessa seenu wal hormaachuuf seelii narviitti of maxxanuu qaba. Akkasumas gama diriiraa tokkotti maxxana.',
+  cla_description5: ' Vaayirasiin dhukkuba kana gosoota vaayirasii biroo irraa wanti adda isa godhu, seelii narvii keessa jiraachuu ykn wal hormaata, irra caalaa sammuu keessa.',
+  cla_description6: ' Dhuma narvii miiraa fi sochii qaamaa karaa ciniinnaa erga argateen booda gara seelii narvii hafeetti ce’ee karaa lafee dugdaatiin sammuu bira ga’a.',
+  cla_description7: ' Dhukkubni kun dhukkuba balaafamaa fi suukaneessaa ta’ee fi yeroo gabaabaa keessatti narvii, sammuu fi maashaalee laamshessuun lubbuu namaa balleessuu danda’uudha.',
+
   // tax_title: 'Gareesa Aanisii Naannoo',
   // tax_description: 'Gareesa aanisii naannoo gareesichiirraa baraaruufi akkaataa deebisuu qaba. Namoota addunyaa qofaafi daandii keessa dhihaatti qofa osoo hin taane akka deebifamuu tuffii, hiriiraa keessatti akka dubbifamu gaaffii baraaruuf baheefi qabdu. Jijjiirraa gareesa naannoo keessatti naannoo bira fageenya isaa cufaa dha.',
-  
-  host_title: 'Gareesa Makala',
-  host_description: 'Talaalliin ittisaa dhibee sababa saree gara laafessuuf kennamu namootaaf haala lama keessatti kennameera: kan duraa-quunnamtii (pre-exposure) fi kan booda-quunnamtii (post-exposure) jedhamee beekama.',
-  host_description1: 'Talaalliin duraa-quunnamtii (pre-exposure) jedhamu kan kennamu ogeeyyii hojjatoota bineensota waliin siqaniifi, akka ogeeyyii bineensota, ogeeyyii qorannoo dhibee, hojjatoota bakka qorannoo keessa hojjatan, ogeeyyii kunuunsa bineensota bosonaa, hojjatoota paarkii, ogeeyyii fayyaa mana yaalaafi imaltoota dhibee kanaan walqunnamtii qabaachuu danda\'an waliin ta\'uudha.',
-  host_description2: 'Talaalliin booda-quunnamtii (post-exposure) jedhamu immoo yeroo vaayirasii tokko qaama namaatti seenee booda, yeroo kanatti kenname. Talaalliin ittisaa kun namoota dhukkuba kana qabachuu danda\'u jedhamanii yaadaman yookin ragaan mirkanaa\'eef kanneen bineensa dhukkubsataa\'n qufaman qofaaf kennama. Namni kam iyyuu dhukkubsataa jedhamuun yaadame bineensa qufame yookiin tuqame sirriitti haala ogummaa qabuun qorannaa dhukkubsataa fi gargaarsa yeroo ariifachiisaa argachuu qaba.',
- 
-  trans_title: 'Gareesa Afaanii',
-  trans_description1: ' Rabies kan osoo hin taane yoo dhibbaa ykn dhoorkee ilmaan karaa addaa gadii bittaa isaa miidhamaniiru. ',
-  trans_description2: ' Virusii rabies bara kanaatti osoo dhibbaa addaa dubbisuu danda\'uu danda\'uu dubbisaa dhoorkeetti osoo qabu dha. ',
-  trans_description3: ' Dandeettii kan jedhan, waa\'ee kan naannoleefiif kaanii kan akka wajjiin namaa, murtaaddi, yookaan durii kaan akka durii, deemuun akka harka naannoo keessaa, kanumaan naannoo keessaa, kan akkasuma deemuun.',
-  trans_description4: ' kan mul\'atuuf raabii dhoorkee osoo irraa kan ka\'e, inni qabu karaa danda\'u isaa bara guddaa irraa argatuun kanuma dura caalaan dhoorkeetti naannoo keessaa bakka fayyadamtuuf naqaa darbuu danda\'u, hujii rooristuwwan jabeeffadhuudhaafna malee raabii fi hojii biraan gahaa jirtuuf naannoleen rabii dha.',
-  trans_description5: ' Raabii kan morma isaa addaa yoo jenne rabii osoo dhoorkee ilmoo isaa naannoleefii yoo hundaa\'e addaa hundi rabii dhoorkee bakka bu\'oota isaa waliigaltee danda\'uutu kanuma hundaa\'e, rabii raafama isaa irraa bu\'oota isaa waliigaltee danda\'uutu kanuma hundaa\'e kanuma dura caalaan dhoorkee irraa argatus. Gama kanaaf, gaaffii fayyadamtuu raabii irraa dhoorkee naannoo ke',
-  
-  incu_title: 'Yeroo Dhibee Duraa ',
-  incu_description: 'Yeroo namni tokko yeroo qufame hanga mallattoon dhibee itti mul’atutti jiru.',
-  incu_description1: 'Dhibeen dhukkuba saree kanneen biroo irraa adda isa godhu yeroo itti mul’atu kan hin jirre dha.',
-  incu_description2: 'Yeroo ittit virusichi ittfufu dheerina isaa fi gabaabina isaa kan murteessan bal’inna qusaa, baay’inna virusitti yeroo qufamu keessa seene, fi qaama namichaa ittisuun dhibee sanaa.',
-  incu_description3: 'Qusaan yoo bal’ate fi virusichi baay’ate qaama keessa seene yeroo gabaabdu keessatti qaamota nerve dhaqqabuuf carraa argata.',
-  incu_description4: 'Warra qufaame gubbaa fi jalaa qaama isaanii kan hin walfakkaanne yeroo itti mallattoon dhibee mul’atu.',
-  incu_description5: 'Dhibeen dhukkuba saree mallattoon isaa itti mul’atuun dura qusaa irratti gubuu, hoo’uu, boo’uu, boo’icha, fi dhukkubni qusaa irratti uumamuun dura mataa dhukkubsachuu, hoo’uu, fi dadhabbiin itti fufa.',
-  incu_description6: 'Mallattoon kun kan dhukkuboota biroo irraa uumamu danda’a, kanaaf ogeessa fayyaa waliin mari’achuun barbaachisaadha.',
 
-  anisym_title: 'Gareesa Harka Qulqulluu',
-  anisym_description: ['Harka qulqulluu', 'hiriyootaa', 'fagaala qe\'uu', 'daqiiqaa', 'beekumsaa', 'teebita', 'Isa', 'gaaffii fiixaa', 'fagaala dubbii', 'korma.'],
+  host_title: 'Talaallii',
+  host_description: 'Talaalliin dhukkuba saree maraattee kun karaa lama namootaaf kennama. Isaan kun talaallii ciniinnaa duraa fi ciniinnaa boodaa jedhamuun beekamu.',
+  host_description1: 'Ogeessota bineensota waliin walitti dhiyeenyaan hojjetaniif talaallii saaxilamummaa duraa; Ogeessota beeyladaatiif; Warra laaboraatoorii qorannoon dhibee kanaa itti gaggeeffamu keessatti hojjetaniif; Hojjettoota kunuunsa bineensota bosonaa fi paarkiitiin; Innis gosa talaallii ittisaa ogeeyyii fayyaa hospitaalaa fi imaltoota dhukkuba kanaaf haala adda addaatiin saaxilamuu waan danda’aniif kennamudha.',
+  host_description2: 'Talaalliin saaxila boodaa (post-exposure vaccine) talaallii erga vaayirasiin dhukkuba kana fidu ciniinnaa ykn yeroo biraatiin qaama keessa seenee booda kennamudha. Kana jechuun namoota bineensi saree maraattee qaba jedhamee shakkame ykn mirkanaa’een ciniiname qofatu talaallii fudhachuu qaba. Namni bineensi saree maraattee ykn saree maraattee qaba jedhamee shakkame ciniiname, ykn bineensi ciniiname qorannoof ogeessa beeyladaatti dhiyaachuu yoo dadhabe, hatattamaan gorsa ogeessaa fi tajaajila barbaaduu qaba.',
+
+  trans_title: 'Karaalee dhukkuba kanaa',
+  trans_description1: ' Karaan inni guddaan dhukkuba saree maraattee ittiin daddarbu ciniinnaa yoo ta’u, garuu of eeggannoo malee bineensa dhukkuba kanaan qabame waliin wal qunnamuudhaan, keessumaa bineensi saree maraattee madaa dafqaan hin haguugamne irratti yeroo boqotu, baakteeriyaa ykn vaayirasiin dhukkuba fidu qaama namaa seenuu danda’a nama ykn bineensa fayyaa ta’ee fi dhukkubni kun daddarbuu ni danda’a. ',
+  trans_description2: ' Sareen dhukkuba kanaan qabame bineensa biraa yommuu ciniintu, vaayirasiin dhukkuba kana fidu salphaatti bineensa biraatti daddarbuu danda’a. ',
+  trans_description3: ' Hanga ammaatti addunyaa irratti dhibeen kun nama irraa namatti daddarbuu akka danda’u odeeffannoon mirkanaa’e hin jiru Haa ta’u malee, haati biyya keenyaa tokko saree dhukkuba saree maraattee qabdu yaaluuf gara Inistiitiyuutii Qorannoo Fayyaa fi Nyaata Itiyoophiyaa dhufte.',
+  trans_description4: ' Miidhamaan dhibee kanaan kan biraan dubartii ganna 24 yoo taatu, guyyaa 36ffaa dhukkubsattee lubbuun ishee darbe. Bineensi akka hin ciniinne odeeffannoon maatii irraa argame ni mul\'isa.',
+  trans_description5: '',
+
+  incu_title: 'Yeroo Inkuubeshinii  ',
+  incu_description: 'Kana jechuun keenya guyyaa namni tokko ciniiname irraa kaasee hanga mallattoon dhukkuba kanaa mul’atutti yeroo vaayirasichi itti inkuubeshinii ta’uu isaati.',
+  incu_description1: 'Dhukkubni saree maraattee saree dhukkuboota biroo irraa adda waan ta’eef marsaan laguu dhaabbataa waan hin qabneef.',
+  incu_description2: 'Gad fageenyi ykn bal’inni madaa, hammi vaayirasiin yeroo ciniiname seenee fi dandeettiin ittisa qaamaa namichaa yeroon walhormaata vaayirasichaa gabaabaa ykn dheeraa ta’uu isaa murteessa.',
+  incu_description3: 'Akkuma madaan bal’achaa fi gad fageeffachaa deemuun hammi fincaan ykn vaayirasiin seenu baay’ee guddaa waan ta’eef, carraan fincaan ykn vaayirasichi seelii narvii bira ga’uu waan dabaluuf yeroon walhormaataa gabaabbata.',
+  incu_description4: 'Namootaa fi bineensonni morma olitti fi qoonqoo gadiitti ciniiname, vaayirasiin qaama isaanii seenu tokko waan hin taaneef dhukkubni kun wal qixa hin jalqabu.',
+  incu_description5: 'Dhukkubni saree maraattee osoo hin jalqabin dura, sanyiin naannoo madaa sanaatti ququnca’uu, garaa kaasaa fi gubachuu, itti aansuunis mataa dhukkubbii, ho’a qaamaa fi dadhabbiin ni mul’ata.',
+  incu_description6: 'Mallattoowwan kunneen dhukkuboota birootiinis dhufuu waan danda’aniif ogeessa fayyaa mariisisuun barbaachisaadha.',
+
+  anisym_title: 'Mallattoon vaayirasichaa akka armaan gadiiti',
+  anisym_description: ['Ni aara', 'Yeroo hafuura baafannu naannoo garaatti sagaleen \'whistling\' ni dhaga\'ama',
+    'Yeroo baay’ee fincaa’a', 'Gogiinsa garaa', 'gara fuulduraa fi gara duubaatti fiiga',
+    'qabsaa’uuf yaala', 'Bu’aa argachuuf raabsama'],
   // husym_title: 'Gareesa Harka Qulqulluu Bilisummaa',
   // husym_description: ['Harka qulqulluu' , 'hiriyootaa', 'fagaala qe\'uu', 'daqiiqaa', 'beekumsaa', 'teebita', 'Isa', 'gaaffii fiixaa', 'fagaala dubbii', 'korma.'],
-  
-  treat_title: 'Maalimaa Dhibee Fudhatamu',  
-  treat_description: 'Harka walqunnamuu walii gaafatu waliin barbaachisaa jira. Dandeettii qaba osoo hundaa walii gaafatanii mirkaneesse qabuun, deebii fi furmaan baraaruuf qabdu. Baraaruuf keessatti maddi isaa waliif godhanii walii gaafatanii naannoo barbaachisuun dhimma isaanii dubbifameera.',
-  treat_description: 'a. Naannoo qufame sun bishaan fi saamuu ykn alkoolii/disinfeektiintii waliin qulqulleessi. Kun rakkoo virusaa guutummaan guutuutti hin balleessu ta\'uus, baay\'ina virusii jiru ni hir\'isa.',
-  treat_description1: 'b. Gargaarsa fayyaa ariifachiisaa fi duraa argachuuf gara buufata fayyaa yookin kilinikaa fagoo hin jirre deemuu.',
-  treat_description2: 'c. Yoo bineensa qufame sun jiraate, ogeessa fayyaa bineensotaatiin guyyoota 10f hordofamu qaba.',
-  treat_description3: 'd. Yoo bineensichi yeroo hordoffii mallattoo dhukkuba mul’ise, namni qufame sun ariifachuun talaallii ittisaa fudhachuu qaba.',
-  treat_description4: 'e. Yoo bineensichi dhukkuba qabachuu yaaddessaa ta\'e, bineensichi ajjeefamuu qaba. Yoo guyyoota 10 keessatti du\'e, qoma bineensichaa gara Institituutii Fayyaa fi Nyaata Itiyoophiyaa ergamee qorannaan geggeeffamuu qaba. Harki qaamaa bineensichaa hafe ni gubamuu yookin awwaalamu qaba.',
-  treat_description5: 'f. Yoo qorannaan bineensichi dhukkuba qabachuu mirkaneesse, namni qufame sun ariifachuun talaallii ittisaa fudhachuu qaba.',
-  treat_description6: 'g. Yoo qufa jabaataa ta’e, addatti yoo kan mataa yookin morma qufame ta’e, yookin yoo qusaan gubbaa bal\'aa ta\'e, namni qufame sun ariifachuun talaallii ittisaa jalqabuu qaba, akkasumas Raabisii Immuunooloogluubulinii (Rabies Immunoglobulin) qufa naannoo qufa sanatti akka hin facaane ittisuuf fudhatamuu qaba.',
-  treat_description7: 'h. Namni dhukkuba qabatee mallattoon dhukkubaa yoo mul’ate, eegumsaa fi of eeggannoo godhuun dirqama. Namni kun keessumaa seelii dhukkuba kanatti fayyadamuun akka hin saaxilamne eeguu barbaachisaadha. Qoricha ittisaa fi gargaarsa barbaachisu fudhachuuf fayyaalessa waliin mari\'achuun barbaachisaadha. Kana booda harka fi fuula isaa waliin saamuun dhaquu barbaachisaadha.',
 
-  sign_title: 'Gareesa Carraa Haaraa',
-  sign_description1: 'Carraa haaraa dandeettiin keessatti maddi keessan irra deebisuun tuffii barbaachisaa jira. Walii gaafatanii walii abbaa isaanii mirkaneessuun furmaan mirkaneeffamuun namoonni kana akka dandeenyeetti maddi isaa muddama gaafachuun hubatamuun, walii gaafatu waliin barbaachisaa jira. ',
-  sign_description2: 'Dandeettii qaba osoo hundaa walii gaafatanii mirkaneesse qabuun, deebii fi furmaan baraaruuf qabdu. Baraaruuf keessatti maddi isaa waliif godhanii walii gaafatanii naannoo barbaachisuun dhimma isaanii dubbifameera.',
+  treat_title: 'Wal\'aansa dhukkuba kanaaf',
+  // treat_description: 'Harka walqunnamuu walii gaafatu waliin barbaachisaa jira. Dandeettii qaba osoo hundaa walii gaafatanii mirkaneesse qabuun, deebii fi furmaan baraaruuf qabdu. Baraaruuf keessatti maddi isaa waliif godhanii walii gaafatanii naannoo barbaachisuun dhimma isaanii dubbifameera.',
+  treat_description: 'a. Qaama ciniiname sana bishaanii fi saamunaa ykn alkooliin sirriitti dhiqachuu; Kunis hamma baakteeriyaa ykn vaayirasiin qabame guutummaatti yoo hin taane hamma tokko hir’isa. ',
+  treat_description1: 'b. Madaa sana gara buufata fayyaa ykn kilinika dhiyoo jirutti geessuun gargaarsa jalqabaa argachuu qaba. ',
+  treat_description2: 'c. Bineensi ciniiname lubbuun yoo jiraate ogeessa beeyladaatti agarsiifamee guyyoota 10f hordoffii jala turuu qaba. ',
+  treat_description3: 'd. Bineensi ilaalamaa jiru sababa adda addaatiin yoo miliqe namni dhibee kanaan qabame hatattamaan talaallii ittisaa fudhachuu qaba.',
+  treat_description4: 'e. Bineensi ciniinuu dhukkuba kanaan qabamuu isaa yoo shakkame ajjeefamuu qaba ykn erga ilaalame guyyoota 10 keessatti yoo du’e mataan isaa muramee gara Inistiitiyuutii Qorannoo Fayyaa fi Nyaata Itoophiyaatti ergamee qoratamuu qaba. Reeffi hafe gubachuu ykn awwaalamuu qaba.',
+  treat_description5: 'f. Mataan bineensichaa qoratamee dhukkubichaan akka miidhame yoo mirkanaa\'e, nama dhibee kanaan qabame talaallii ittisaa hatattamaan hordofamuu qaba. ',
+  treat_description6: 'g. Yoo gosti ciniinnaa cimaa ta’e, keessattuu ciniinnaa morma olitti yoo ta’e, akkasumas ciniinnaa naannoo bal’aa kan uwwise yoo ta’e, hanga bu’aan hordoffii bineensichaa guyyaa 10 beekamutti, namni dhibee kanaan qabame Dabalataan talaallii jalqabuu qaba , Rabies Immunoglobulin naannoo madaa kennuudhaan vaayirasichi gara narviitti akka hin babal’anne dhorkuuf gargaara. ',
+  treat_description7: 'h. Nama dhibee kana qabu of eeggannoodhaan yaaluun barbaachisaa dha sababiin isaas namni dhukkuba kana qabu ni ciniinee ni ciniina. Haxxiffannaa waliin tuttuqaa qabaachuu malees dhukkubsataan',
 
-  pat_title: 'Tariifi Hundiisaa hojjata',
-  pat_description: 'Rabbiin Tariifi Hundiisaa hojjata Rabbiin qabachuun hundiisaa hojjataa gurgurachaa tariifa Rabbiin hundiin qabachuun taanaan kan wal qabachuu hundiisaa ammayyuu walitti ammaa itti fufuun baay\'ee waltuqoofne. ',
-  pat_description1: 'Rabbiin Tariifi Hundiisaa hojjata Rabbiin qabachuun hundiisaa hojjataa gurgurachaa tariifa Rabbiin hundiin qabachuun taanaan kan wal qabachuu hundiisaa ammayyuu walitti ammaa itti fufuun baay\'ee waltuqoofne1. ',
-  pat_description2: 'Rabbiin Tariifi Hundiisaa hojjata Rabbiin qabachuun hundiisaa hojjataa gurgurachaa tariifa Rabbiin hundiin qabachuun taanaan kan wal qabachuu hundiisaa ammayyuu walitti ammaa itti fufuun baay\'ee waltuqoofne2. ',
-  pat_description3: 'Rabbiin Tariifi Hundiisaa hojjata Rabbiin qabachuun hundiisaa hojjataa gurgurachaa tariifa Rabbiin hundiin qabachuun taanaan kan wal qabachuu hundiisaa ammayyuu walitti ammaa itti fufuun baay\'ee waltuqoofne3. ',
-  pat_description4: 'Rabbiin Tariifi Hundiisaa hojjata Rabbiin qabachuun hundiisaa hojjataa gurgurachaa tariifa Rabbiin hundiin qabachuun taanaan kan wal qabachuu hundiisaa ammayyuu walitti ammaa itti fufuun baay\'ee waltuqoofne4. ',
-  pat_description5: 'Rabbiin Tariifi Hundiisaa hojjata Rabbiin qabachuun hundiisaa hojjataa gurgurachaa tariifa Rabbiin hundiin qabachuun taanaan kan wal qabachuu hundiisaa ammayyuu walitti ammaa itti fufuun baay\'ee waltuqoofne5. ',
-  pat_description6: 'Rabbiin Tariifi Hundiisaa hojjata Rabbiin qabachuun hundiisaa hojjataa gurgurachaa tariifa Rabbiin hundiin qabachuun taanaan kan wal qabachuu hundiisaa ammayyuu walitti ammaa itti fufuun baay\'ee waltuqoofne6. ',
-  
-  hosp_treatement: 'Yeroo dhibee sana adda baafnu',
-  hosp_description: 'Biyya keenya keessatti laaboraatorii dhimma kana qoratu kan qofa Inistitiyuutii Qorannoo Fayyaa fi Nyaataa Itoophiyaa qofa.',
-  hosp_description1: 'Tajaajila kana irraa fayyadamtoonni duraa kanneen Finfinnee fi naannoo isheetti argaman, garuu qaamoleen biroo fageenya irraa kan fayyadamuu hin dandeenye.',
-  hosp_description2: 'Tajaajilli qorannoo kun gara laaboraatoriwwan naannootti yoo bal’ate, balaa dhibee sana sirnaan adda baasuu qofa utuu hin taane, warra dhibee sanaan miidhaman yeroo sirrii irratti wal’ansa argachuuf ni gargaara.',
-  hosp_description3: 'Beelaadha jechuun shakkiin qabame yeroo guyyaa 10f qabamee eeggamu, qorannoon qaamaa raawwatamee mallattoon dhibee sanaa yommuu beelaadha irratti mul’atu ilaaluuf.',
-  hosp_description4: 'Beelaan nama xuqee yoo gara inistitiyuutitti fiduu hin dandeenye, iddoo jiru irraa yeroo guyyaa 10f eeggachuu ni danda’ama. Beelaan yeroo sana keessa yoo du’e, nama xuqee dhibee sanaan qabamuu danda’a jechuudha, akkasumas namni miidhamne fayyaa ofii ogeessa fayyaa beeksisuu qaba.',
-  hosp_description5: 'Beelaan yeroo guyyaa 10f osoo hin jijjiiramin miidhaginaan jiraatee yoo ta’e, namni miidhame dhibee sanaan hin qabamne jechuun mirkaneessa.',
-  hosp_description6: 'Beelaan yoo du’e, mataa isaa kutamee gara Inistitiyuutii Qorannoo Fayyaa fi Nyaataa Itoophiyaa erguu barbaachisa.',
-  hosp_description7: 'Dhibee sana namarraa ykn beelaarraa akka qabamuu danda’u mirkaneessuuf qorannoo duraa hin jiru. Fayyina fayyaa malee, carraan lubbuu nama qabamne hedduu xiqqaadha.',
-  hosp_description8: 'Kanaaf, namni kamuu qajeelfama yeroo dheeraaf irraa hafe ykn beela irraa miidhame, ogeessa fayyaa dafee wal’aanamuu qaba.',
+  sign_title: 'Yeroo dhukkubni kun itti turuu fi mallattoolee dhibee kanaa',
+  sign_description1: 'Gosti jalqabaa Furious Form jedhamuun kan beekamu yoo ta\'u, sareen jeequmsaa fi aaruu, naanna\'aa, nama, bineensa ykn wanta lubbuu hin qabne kamiyyuu qunnamu ciniinee, afaan banatee, balali\'aa ciniinuuf yaala, sagalee fi qilleensa hin jaallatu, sagalee isaa makes is different from the old one, it is a sound between iyyaa fi boo\'icha , sababni isaas afaan isaa banuufi cufuun rakkisaa waan ta\'eef, ni qalla\'a, funyaan isaa ni qalla\'a, iji isaa ni caccabsa ykn ni dhiita\'a, achiis miilli isaa jalqaba fi kan qaamni guutuun laamsha\'ee dhumarratti ni du\'a.  ',
+  sign_description2: 'Unkaan lammaffaan Unka Damp kan jedhamu yoo ta’u, yeroo tokko tokko Pale jedhamuun beekama. Sareen mallattoo gosa kanaa qabu callisee, qorraa fi dadhaboo ta\'a. Kana malees, morma isaa hin jilbeenfatu, hin gungumu, hin ciniinu; Amala namoota irraa fagaachuu fi dhokachuu agarsiisa. Keessattuu saawwan gosa dhukkuba kana agarsiisan, maashaaleen jilba isaanii waan laamsha\'aniif, jilba isaanii inni gadii gadi waan rarra\'uuf, abbootiin saawwanii baay\'een isaanii lafeen qoonqoo saree sanaa keessa maxxane akka jiru yaadanii baasuuf yaalu. Namni tokko jijjiirama amala armaan olii kana saree irratti yeroo argu, sareen sun dhukkuba saree maraattee sareetiin qabamuu akka danda’u shakkuu qaba, kanaaf of eeggannoo gochuun ogeessa beeyladaa mariisisuu qaba.  ',
 
-  home_title: 'Maxx Scooter',
-  home_desc: 'Gurraacha Maxx Scooter kan bilbilaa dhoofamuuti jira irratti akka hubachiisuu dandaʼu.',
+  pat_title: 'Tatamsa\'ina dhibee kanaa',
+  pat_description: 'Dhukkubni saree irratti dhukkuba saree maraattee fidu kun yeroo baay’ee dhukkuba saree maraattee jedhamuun kan beekamu yoo ta’u, bineensonni hedduun garuu dhibee kanaan miidhamu. ',
+  pat_description1: 'Bineensonni manaa saawwan dhukkuba saree maraatteetiin qabaman saree, saree, re’ee, re’ee, hoolaa, re’ee, harree, fardaa fi gaala dha. ',
+  pat_description2: 'Dhukkubni saree maraattee saree dhukkuba waggaa guutuu mul’atudha. Haa ta\'u malee, yeroo saawwan wal hormaatanitti dhukkubni kun ni dabala. Sababni isaas, sareen dubaraa tokko wal-hormaataaf tilmaamaan saawwan dhiiraa 5-8 waliin yoo horsiifamte, isaan keessaa tokko illee akka tasaa dhukkuba kanaan qabama, kunis yeroo tokkotti hordoftoota saree dubaraa walakkaa ol faaluu danda\'a. ',
+  pat_description3: 'Bineensonni bosonaa saawwan dhukkuba saree maraattee faaluu danda’an bakka sadiitti qoodamuu danda’u: foon nyaatan, herbivores fi scavengers. ',
+  pat_description4: 'Bineensonni bosonaa foon nyaatan kanneen akka saree, haayina, lukkuu, pheesan, wasp ni caqafamu, keessumaa biyya keenya keessatti, odeeffannoon akka agarsiisutti haayinaa fi sareen yeroo baay’ee dhukkuba kanaan qabamuu isaanii ni mul’isa. ',
+  pat_description5: 'Gosoonni battee baay’een kan jiran yoo ta’u, isaan keessaa lama qofatu dhukkuba saree maraattee saawwanitti akka dabarsu amanama. Isaan kun ilbiisota nyaatanii fi dhiiga xuuxan jedhamuun beekamu. ',
+  pat_description6: ' ',
+
+  hosp_treatement: 'Yeroo urgaa xiinxaluuf nu gargaaru',
+  hosp_description: 'Biyya keenyatti laaboraatooriin qorannoo kana raawwatu Inistiitiyuutii Qorannoo Fayyaa fi Nyaata Itoophiyaa qofaadha.',
+  hosp_description1: 'Fayyadamtoonni tajaajila qormaata kanaa irra caalaan isaanii miseensota hawaasaa Addis Ababa fi naannawa ishee yoo ta’an, kutaaleen biyya keenyaa biroo garuu sababa fageenya irraa kan ka’e tajaajila kana irraa fayyadamoo ta’uu hin dandeenye.',
+  hosp_description2: 'Tajaajilli adda baasuu kun laaboraatooriiwwan naannichaa keessatti yoo babal’ate, tamsa’ina dhibee kanaa biyyattii keessatti beekuuf kan gargaaru yoo ta’u, akkasumas namoonni dhibee kanaaf saaxilaman yaala yeroon akka argatan ni gargaara.',
+  hosp_description3: 'Bineensi maraattee shakkame tokko qaama isaa qoratamee guyyoota 10f buufata tursiisaa keessatti tursiisa.',
+  hosp_description4: 'Yeroo tokko tokko bineensi ykn sareen ciniiname sun talaallii yoo fudhatee gara dhaabbatichaatti fiduu hin dandeenye, bineensichi guyyoota 10f to’annoo jala ooluu fi hordofamuu danda’a .',
+  hosp_description5: 'Guyyoota kurnan kana keessatti jijjirama qaamaa ykn amala isaa kan hin agarsiifnee fi osoo nyaatuu fi dhuguu lubbuun yoo hafe, yeroo ciniinametti nama dhibee kanaan qabameef akka hin dabarsinee fi namni dhibee kanaan qabame akka ta’e mirkanaa’a dhibee kanarraa bilisa ta’eera.',
+  hosp_description6: 'Bineensichi yoo du’e mataa isaa irraa muruun gara Ethiopian Health and Nutrition tti erguun akka qoratamu',
+  // hosp_description7: 'Dhibee sana namarraa ykn beelaarraa akka qabamuu danda’u mirkaneessuuf qorannoo duraa hin jiru. Fayyina fayyaa malee, carraan lubbuu nama qabamne hedduu xiqqaadha.',
+  // hosp_description8: 'Kanaaf, namni kamuu qajeelfama yeroo dheeraaf irraa hafe ykn beela irraa miidhame, ogeessa fayyaa dafee wal’aanamuu qaba.',
+
+  home_title: 'RabiCare',
+  home_desc: 'Teknolojiin Roobii baay\'ee nama afaan Oromootti qabatee, barreessaa fi aadaa saayinsiin mirga namoomaa keessaa goone. Humni adda addaa keessatti barbaachisaa fi lafa ofii isaa jalqabaa.',
   home_but: 'Kutaa',
 
-  about_title: 'Bara kana Keenya',
-  about_desc: 'Kanaafuu, seena ummataa fi miidhaa keenya waggoota ullaan kennamaa turteefi taasisuudhaan walitti qaban kennamaa turan waggoota biyyattii bilisummaa keessa jirtan.',
-  about_quote: 'Fuula dhiiraa itti fayyadamaa baraa keessatti, isa ni argatu.',
-  about_contact: 'Maal gochaa fi malaa fayya baayyina guutuuf: info@rabiesawareness.org',
-  home_screen: 'Dhageeffadha'      
+  about_title: 'Bara ammoo',
+  about_desc: 'Ni dubbiin nu haa kennan, kitaaba haaraa keessa nama miidhaan, gaaffiiwwan keenya ta\'an.',
+  about_quote: 'kan qopheesse: Tewodros Legesse',
+  about_contact: 'Email: tewoderos.legesse@aau.edu.et',
+  home_screen: 'Ijoo'
 
 };
 export { am, en, or };

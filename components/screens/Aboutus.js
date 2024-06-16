@@ -14,7 +14,7 @@ const AboutUsScreen = () => {
   return (
     <View style={styles.container}>
       <Image
-        source={require('../../assets/golden-retriever-dog793.logowik.com.webp')}
+        source={require('../../assets/quality-logo.png')}
         style={styles.logo}
         resizeMode="contain"
       />
@@ -26,8 +26,9 @@ const AboutUsScreen = () => {
         {about_quote}
       </Text>
       <Text style={styles.contact}>
-        { about_contact }
+        {about_contact}
       </Text>
+      <Text> June 2024 </Text>
     </View>
   );
 };
@@ -43,7 +44,7 @@ const styles = StyleSheet.create({
   logo: {
     width: 150,
     height: 150,
-    marginBottom: 20,
+    marginBottom: 60,
   },
   title: {
     fontSize: 24,
@@ -52,11 +53,11 @@ const styles = StyleSheet.create({
   },
   description: {
     textAlign: 'center',
-    marginBottom: 20,
+    marginBottom: 10,
   },
   quote: {
     fontStyle: 'italic',
-    marginBottom: 20,
+    marginBottom: 10,
   },
   contact: {
     color: '#888',
