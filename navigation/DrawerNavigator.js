@@ -67,7 +67,7 @@ const DrawerNavigator = () => {
           // marginLeft: 1,
         },
         headerStyle: {
-          height: 100,
+          height: 70,
         },
         headerRight: () => (
           <View style={styles.container}>
