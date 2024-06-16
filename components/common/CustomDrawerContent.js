@@ -1,11 +1,13 @@
 import React from 'react';
 import { DrawerContentScrollView, DrawerItemList } from '@react-navigation/drawer';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, Image } from 'react-native';
 
 const CustomDrawerContent = (props) => {
+
   return (
     <DrawerContentScrollView {...props}>
       <View style={styles.drawerHeader}>
+        <Image source={require('../../assets/quality-logo.png')} style={{ width: 127, height: 127, borderRadius: 50, alignItems: "center", alignContent: "center", justifyContent: "center" }} />
         <Text style={styles.drawerHeaderText}>RabiCare</Text>
       </View>
       <DrawerItemList {...props} />
