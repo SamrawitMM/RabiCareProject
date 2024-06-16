@@ -16,8 +16,8 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/quality-logo.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/quality-logo50x50.png",
+        "backgroundColor": "#000000"
       },
       "package": "com.samrawitmewa.RabiCare"
     },
