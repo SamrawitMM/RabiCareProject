@@ -1,5 +1,5 @@
 const en = {
-  cla_title: 'Classfication',
+  cla_title: 'Taxonomy',
 
   cla_description1:
     'Includes organisms with cells that contain a nucleus enclosed within membranes.',
@@ -27,7 +27,7 @@ const en = {
   pat_description3: ' As the disease progresses, the virus spreads to the salivary glands, increasing the risk of transmission through saliva.',
   pat_description4: ' Rabies is almost always fatal once symptoms appear, with death usually occurring due to respiratory failure or cardiac arrest.',
   pat_description5: ' Despite the immune response, which is often ineffective in clearing the virus from the central nervous system, vaccination and post-exposure prophylaxis remain crucial for preventing clinical rabies.',
-  pat_description6: ' Despite the immune response, which is often ineffective in clearing the virus from the central nervous system, vaccination and post-exposure prophylaxis remain crucial for preventing clinical rabies2.',
+  pat_description6: '',
 
   host_title: 'Host Susceptibility',
   host_description: 'The rabies preventive vaccine for humans is administered in two situations: pre-exposure and post-exposure vaccinations.',
@@ -104,14 +104,14 @@ const en = {
   hosp_description7: 'There is no preliminary test to confirm whether the disease can be transmitted to humans or animals. Without medical treatment, the survival chances for those infected are very low.',
   hosp_description8: 'Therefore, anyone exposed to a potential rabid bite or scratch from an animal should immediately consult a doctor without delay.',
 
-  home_title: 'Maxx Scooter',
-  home_desc: 'With an updated motor, and integrated anti-theft tech the maxx scooters are custom-tuned for the ultimate riding experience.',
+  home_title: 'RabiCare',
+  home_desc: 'The Rabicare application provides users with essential knowledge about the disease, information on health decisions supported by data, and details about the symptoms of the disease.',
   home_but: 'Next',
 
   about_title: 'About Us',
   about_desc: 'Our mission is to raise awareness about rabies and promote preventive measures to protect both humans and animals.',
   about_quote: '\"Together, we can create a world free from the fear of rabies.\"',
-  about_contact: 'For more information, contact us at: info@rabiesawareness.org',
+  about_contact: 'For more information, contact us at: tewoderos.legesse@aau.edu.et',
 
   home_screen: 'Home',
   cla_screen: 'Classification'

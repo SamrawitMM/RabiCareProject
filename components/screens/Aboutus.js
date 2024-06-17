@@ -28,7 +28,7 @@ const AboutUsScreen = () => {
       <Text style={styles.contact}>
         {about_contact}
       </Text>
-      <Text> June 2024 </Text>
+      <Text> {`\n`} June 2024 </Text>
     </View>
   );
 };
@@ -61,6 +61,10 @@ const styles = StyleSheet.create({
   },
   contact: {
     color: '#888',
+    alignItems: 'center',
+    justifyContent: 'center',
+    textAlign: 'center',
+
   },
 });
 

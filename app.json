@@ -16,7 +16,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/quality-logo50x50.png",
+        "foregroundImage": "./assets/dog_barking.webp",
         "backgroundColor": "#000000"
       },
       "package": "com.samrawitmewa.RabiCare"
