@@ -25,14 +25,14 @@ const translations = { en, am, or };
 
 
 const DrawerNavigator = () => {
-  const [locale, setLocale] = useState('or');
+  const [locale, setLocale] = useState('en');
   const dispatch = useDispatch();
-  const languages = ['አማረኛ', 'ኦሮምኛ'];
+  const languages = ['እንግሊዘኛ', 'አማረኛ', 'ኦሮምኛ'];
 
   const storeData = (language) => {
     switch (language) {
-      // case 'English':
-      //   return 'en';
+      case 'እንግሊዘኛ':
+        return 'en';
       case 'አማረኛ':
         return 'am';
       case 'ኦሮምኛ':
