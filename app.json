@@ -11,6 +11,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
     "ios": {
       "supportsTablet": true
     },
@@ -19,7 +22,8 @@
         "foregroundImage": "./assets/dog_barking.png",
         "backgroundColor": "#000000"
       },
-      "package": "com.samrawitmewa.RabiCare"
+      "package": "com.samrawitmewa.RabiCare",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png",
