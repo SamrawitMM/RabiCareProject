@@ -3,19 +3,10 @@
       "version": ">= 7.8.4"
     },
     "build": {
-      "preview": {
-        "android": {
-            "buildType": "apk"
-          }
-      },
-      "preview2": {
-        "android": {
-          "gradleCommand": ":app:assembleRelease"
+      "production": {
+        "android":{
+          "buildType":"app-bundle"
         }
-      },
-      "preview3": {
-        "developmentClient": true
-      },
-      "production": {}
+      }
     }
   }
